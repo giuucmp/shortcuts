@@ -16,8 +16,6 @@ Native macOS app · macOS 13+ · Apple silicon and Intel · English and Italian 
 
 No Screen Recording permission is required. You can revoke Accessibility access at any time. macOS may ask you to re-enable access after an update.
 
-**Updating from Scorciatoie?** Quit the old copy, install Shortcuts, then remove the old Scorciatoie app. Preferences, favorites, hidden commands and practice progress retain the same local storage. macOS may ask you to enable Accessibility again.
-
 ## Use
 
 - Hold **Command, Option, Control, Shift or Fn**. After a short delay, a passive panel shows shortcuts for the active app.
