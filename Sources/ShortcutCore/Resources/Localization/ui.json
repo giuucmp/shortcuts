@@ -1,0 +1,914 @@
+{
+  "Lingua": {
+    "it": "Lingua",
+    "en": "Language"
+  },
+  "Lingua di sistema": {
+    "it": "Lingua di sistema",
+    "en": "System language"
+  },
+  "Aspetto": {
+    "it": "Aspetto",
+    "en": "Appearance"
+  },
+  "Scorciatoie": {
+    "it": "Scorciatoie",
+    "en": "Scorciatoie"
+  },
+  "Richiamo": {
+    "it": "Richiamo",
+    "en": "Activation"
+  },
+  "Tema": {
+    "it": "Tema",
+    "en": "Theme"
+  },
+  "Compatto": {
+    "it": "Compatto",
+    "en": "Compact"
+  },
+  "Standard": {
+    "it": "Standard",
+    "en": "Standard"
+  },
+  "Grande": {
+    "it": "Grande",
+    "en": "Large"
+  },
+  "Automatico": {
+    "it": "Automatico",
+    "en": "Automatic"
+  },
+  "Chiaro": {
+    "it": "Chiaro",
+    "en": "Light"
+  },
+  "Scuro": {
+    "it": "Scuro",
+    "en": "Dark"
+  },
+  "Pieno": {
+    "it": "Pieno",
+    "en": "Solid"
+  },
+  "Destra": {
+    "it": "Destra",
+    "en": "Right"
+  },
+  "Sinistra": {
+    "it": "Sinistra",
+    "en": "Left"
+  },
+  "Catalogo": {
+    "it": "Catalogo",
+    "en": "Catalog"
+  },
+  "Esercizi": {
+    "it": "Esercizi",
+    "en": "Practice"
+  },
+  "Nascoste": {
+    "it": "Nascoste",
+    "en": "Hidden"
+  },
+  "Sezione": {
+    "it": "Sezione",
+    "en": "Section"
+  },
+  "Applicazione": {
+    "it": "Applicazione",
+    "en": "Application"
+  },
+  "Preferito": {
+    "it": "Preferito",
+    "en": "Favorite"
+  },
+  "Modifica": {
+    "it": "Modifica",
+    "en": "Edit"
+  },
+  "Taglia": {
+    "it": "Taglia",
+    "en": "Cut"
+  },
+  "Copia": {
+    "it": "Copia",
+    "en": "Copy"
+  },
+  "Incolla": {
+    "it": "Incolla",
+    "en": "Paste"
+  },
+  "Annulla": {
+    "it": "Annulla",
+    "en": "Undo"
+  },
+  "Ripristina": {
+    "it": "Ripristina",
+    "en": "Redo"
+  },
+  "Salva": {
+    "it": "Salva",
+    "en": "Save"
+  },
+  "Cerca": {
+    "it": "Cerca",
+    "en": "Find"
+  },
+  "Navigare": {
+    "it": "Navigare",
+    "en": "Navigate"
+  },
+  "Organizzare": {
+    "it": "Organizzare",
+    "en": "Organize"
+  },
+  "Formattare": {
+    "it": "Formattare",
+    "en": "Format"
+  },
+  "Selezionare": {
+    "it": "Selezionare",
+    "en": "Select"
+  },
+  "Sistema": {
+    "it": "Sistema",
+    "en": "System"
+  },
+  "Globale": {
+    "it": "Globale",
+    "en": "Global"
+  },
+  "Scrittura": {
+    "it": "Scrittura",
+    "en": "Writing"
+  },
+  "spazio": {
+    "it": "spazio",
+    "en": "space"
+  },
+  "Da verificare": {
+    "it": "Da verificare",
+    "en": "Needs verification"
+  },
+  "Dal menu": {
+    "it": "Dal menu",
+    "en": "From the menu"
+  },
+  "Personale": {
+    "it": "Personale",
+    "en": "Custom"
+  },
+  "Da documentazione": {
+    "it": "Da documentazione",
+    "en": "From documentation"
+  },
+  "Estensione · condizionale": {
+    "it": "Estensione · condizionale",
+    "en": "Extension · conditional"
+  },
+  "Personalizzazione da verificare": {
+    "it": "Personalizzazione da verificare",
+    "en": "Custom binding to verify"
+  },
+  "Combinazione da verificare": {
+    "it": "Combinazione da verificare",
+    "en": "Key combination to verify"
+  },
+  "%d azioni nascoste": {
+    "it": "%d azioni nascoste",
+    "en": "%d hidden actions"
+  },
+  "%d comandi": {
+    "it": "%d comandi",
+    "en": "%d commands"
+  },
+  "Accessibilità attiva": {
+    "it": "Accessibilità attiva",
+    "en": "Accessibility enabled"
+  },
+  "Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Scorciatoie.": {
+    "it": "Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Scorciatoie.",
+    "en": "Accessibility is not working yet. After enabling it, restart Scorciatoie."
+  },
+  "Adatta i comandi a quello che sto facendo": {
+    "it": "Adatta i comandi a quello che sto facendo",
+    "en": "Adapt commands to what I’m doing"
+  },
+  "Aggiorna comandi dell’app": {
+    "it": "Aggiorna comandi dell’app",
+    "en": "Refresh app commands"
+  },
+  "Aggiorna menu e personalizzazioni": {
+    "it": "Aggiorna menu e personalizzazioni",
+    "en": "Refresh menus and custom bindings"
+  },
+  "Aggiungi ai preferiti": {
+    "it": "Aggiungi ai preferiti",
+    "en": "Add to favorites"
+  },
+  "Aiuto e riferimenti": {
+    "it": "Aiuto e riferimenti",
+    "en": "Help and reference"
+  },
+  "Altri comandi": {
+    "it": "Altri comandi",
+    "en": "Other commands"
+  },
+  "App attiva · %@": {
+    "it": "App attiva · %@",
+    "en": "Active app · %@"
+  },
+  "App e desktop": {
+    "it": "App e desktop",
+    "en": "Apps and desktop"
+  },
+  "App e finestre": {
+    "it": "App e finestre",
+    "en": "Apps and windows"
+  },
+  "Apri Accessibilità": {
+    "it": "Apri Accessibilità",
+    "en": "Open Accessibility"
+  },
+  "Apri Spotlight": {
+    "it": "Apri Spotlight",
+    "en": "Open Spotlight"
+  },
+  "Apri Studio": {
+    "it": "Apri Studio",
+    "en": "Open Studio"
+  },
+  "Apri Studio e catalogo completo": {
+    "it": "Apri Studio e catalogo completo",
+    "en": "Open Studio and full catalog"
+  },
+  "Apri la fonte": {
+    "it": "Apri la fonte",
+    "en": "Open source reference"
+  },
+  "Apri ricerca Finder": {
+    "it": "Apri ricerca Finder",
+    "en": "Open Finder search"
+  },
+  "Aprire e salvare": {
+    "it": "Aprire e salvare",
+    "en": "Open and save"
+  },
+  "Attesa prima di aprire: %.2f s": {
+    "it": "Attesa prima di aprire: %.2f s",
+    "en": "Delay before opening: %.2f s"
+  },
+  "Attiva un’app per leggerne i menu.": {
+    "it": "Attiva un’app per leggerne i menu.",
+    "en": "Activate an app to read its menus."
+  },
+  "Blocca lo schermo": {
+    "it": "Blocca lo schermo",
+    "en": "Lock screen"
+  },
+  "Browser integrato attivo": {
+    "it": "Browser integrato attivo",
+    "en": "Built-in browser focused"
+  },
+  "Catalogo dell’app": {
+    "it": "Catalogo dell’app",
+    "en": "App catalog"
+  },
+  "Catturare lo schermo": {
+    "it": "Catturare lo schermo",
+    "en": "Capture the screen"
+  },
+  "Cerca nel documento": {
+    "it": "Cerca nel documento",
+    "en": "Find in document"
+  },
+  "Cerca nella chat": {
+    "it": "Cerca nella chat",
+    "en": "Find in chat"
+  },
+  "Cerca nella pagina": {
+    "it": "Cerca nella pagina",
+    "en": "Find in page"
+  },
+  "Cerca un’azione, una categoria o una combinazione": {
+    "it": "Cerca un’azione, una categoria o una combinazione",
+    "en": "Search for an action, category, or key combination"
+  },
+  "Chat e messaggi": {
+    "it": "Chat e messaggi",
+    "en": "Chats and messages"
+  },
+  "Chiudi finestra": {
+    "it": "Chiudi finestra",
+    "en": "Close window"
+  },
+  "Chiudi le altre finestre": {
+    "it": "Chiudi le altre finestre",
+    "en": "Close other windows"
+  },
+  "Chiudi le altre schede": {
+    "it": "Chiudi le altre schede",
+    "en": "Close other tabs"
+  },
+  "Chiudi scheda": {
+    "it": "Chiudi scheda",
+    "en": "Close tab"
+  },
+  "Chiudi scheda o finestra": {
+    "it": "Chiudi scheda o finestra",
+    "en": "Close tab or window"
+  },
+  "Chiudi tutte le finestre": {
+    "it": "Chiudi tutte le finestre",
+    "en": "Close all windows"
+  },
+  "Chiudi tutte le schede": {
+    "it": "Chiudi tutte le schede",
+    "en": "Close all tabs"
+  },
+  "Combinazione documentata senza condizioni specifiche indicate. La disponibilità effettiva dipende dall’app e dal contesto.": {
+    "it": "Combinazione documentata senza condizioni specifiche indicate. La disponibilità effettiva dipende dall’app e dal contesto.",
+    "en": "Documented shortcut with no specific conditions stated. Actual availability depends on the app and context."
+  },
+  "Come vuoi usare Scorciatoie?": {
+    "it": "Come vuoi usare Scorciatoie?",
+    "en": "Make Scorciatoie yours"
+  },
+  "Con browser integrato disponibile": {
+    "it": "Con browser integrato disponibile",
+    "en": "When the built-in browser is available"
+  },
+  "Con contenuto negli appunti": {
+    "it": "Con contenuto negli appunti",
+    "en": "With content on the clipboard"
+  },
+  "Con contenuto selezionato": {
+    "it": "Con contenuto selezionato",
+    "en": "With content selected"
+  },
+  "Con elementi selezionati": {
+    "it": "Con elementi selezionati",
+    "en": "With items selected"
+  },
+  "Con testo selezionato": {
+    "it": "Con testo selezionato",
+    "en": "With text selected"
+  },
+  "Con una finestra o un documento": {
+    "it": "Con una finestra o un documento",
+    "en": "With a window or document open"
+  },
+  "Condizione dell’app": {
+    "it": "Condizione dell’app",
+    "en": "App-specific condition"
+  },
+  "Consenti Accessibilità…": {
+    "it": "Consenti Accessibilità…",
+    "en": "Allow Accessibility…"
+  },
+  "Contesto cambiato: aggiorno al prossimo richiamo.": {
+    "it": "Contesto cambiato: aggiorno al prossimo richiamo.",
+    "en": "Context changed: refreshing on the next activation."
+  },
+  "Controllare la riproduzione": {
+    "it": "Controllare la riproduzione",
+    "en": "Control playback"
+  },
+  "Dimensione del testo": {
+    "it": "Dimensione del testo",
+    "en": "Text size"
+  },
+  "Dipende dalla finestra o dal documento attivo.": {
+    "it": "Dipende dalla finestra o dal documento attivo.",
+    "en": "Depends on the active window or document."
+  },
+  "Disponibile ora": {
+    "it": "Disponibile ora",
+    "en": "Available now"
+  },
+  "Dopo aver chiuso una scheda": {
+    "it": "Dopo aver chiuso una scheda",
+    "en": "After closing a tab"
+  },
+  "Esci da Scorciatoie": {
+    "it": "Esci da Scorciatoie",
+    "en": "Quit Scorciatoie"
+  },
+  "Esporta copertura attuale…": {
+    "it": "Esporta copertura attuale…",
+    "en": "Export current coverage…"
+  },
+  "Evidenzia i comandi quotidiani": {
+    "it": "Evidenzia i comandi quotidiani",
+    "en": "Highlight everyday commands"
+  },
+  "FILTRA PER TASTI": {
+    "it": "FILTRA PER TASTI",
+    "en": "FILTER BY KEYS"
+  },
+  "Finestre e schede": {
+    "it": "Finestre e schede",
+    "en": "Windows and tabs"
+  },
+  "Gestire file": {
+    "it": "Gestire file",
+    "en": "Manage files"
+  },
+  "Gestisci in Studio": {
+    "it": "Gestisci in Studio",
+    "en": "Manage in Studio"
+  },
+  "Ho abilitato l’accesso": {
+    "it": "Ho abilitato l’accesso",
+    "en": "I’ve enabled access"
+  },
+  "I menu verranno letti quando attivi un’app.": {
+    "it": "I menu verranno letti quando attivi un’app.",
+    "en": "Menus will be read when you activate an app."
+  },
+  "I tasti singoli e le sequenze sono in Studio: clic destro sull’icona ⌘ nella barra dei menu.": {
+    "it": "I tasti singoli e le sequenze sono in Studio: clic destro sull’icona ⌘ nella barra dei menu.",
+    "en": "Single keys and sequences are in Studio: right-click the ⌘ icon in the menu bar."
+  },
+  "Il catalogo è disponibile": {
+    "it": "Il catalogo è disponibile",
+    "en": "The catalog is available"
+  },
+  "Il contesto è cambiato durante la lettura. Richiama il pannello per aggiornare.": {
+    "it": "Il contesto è cambiato durante la lettura. Richiama il pannello per aggiornare.",
+    "en": "Context changed during the scan. Hold a modifier again to refresh the panel."
+  },
+  "Il pannello adatta le colonne e il testo per mostrare tutte le scorciatoie scelte senza scroll.": {
+    "it": "Il pannello adatta le colonne e il testo per mostrare tutte le scorciatoie scelte senza scroll.",
+    "en": "The panel adjusts its columns and text to show all selected shortcuts without scrolling."
+  },
+  "Impara mentre lavori.": {
+    "it": "Impara mentre lavori.",
+    "en": "Learn while you work."
+  },
+  "Importa scorciatoie personali…": {
+    "it": "Importa scorciatoie personali…",
+    "en": "Import custom shortcuts…"
+  },
+  "Impostazioni dell’app": {
+    "it": "Impostazioni dell’app",
+    "en": "App settings"
+  },
+  "Impostazioni…": {
+    "it": "Impostazioni…",
+    "en": "Settings…"
+  },
+  "In un campo di testo": {
+    "it": "In un campo di testo",
+    "en": "In a text field"
+  },
+  "Includi voci da verificare": {
+    "it": "Includi voci da verificare",
+    "en": "Include entries to verify"
+  },
+  "Lavorare con tabelle": {
+    "it": "Lavorare con tabelle",
+    "en": "Work with tables"
+  },
+  "Le azioni nascoste vengono escluse dal pannello e dagli esercizi. Il catalogo conserva i dati per poterle ripristinare.": {
+    "it": "Le azioni nascoste vengono escluse dal pannello e dagli esercizi. Il catalogo conserva i dati per poterle ripristinare.",
+    "en": "Hidden actions are excluded from the panel and practice. They stay in the catalog so you can restore them."
+  },
+  "Le condizioni includono selezioni, appunti e modalità specifiche. Per nascondere una sola azione, usa l’occhio in Studio.": {
+    "it": "Le condizioni includono selezioni, appunti e modalità specifiche. Per nascondere una sola azione, usa l’occhio in Studio.",
+    "en": "Conditions include selections, clipboard contents, and specific modes. To hide a single action, use the eye in Studio."
+  },
+  "Le modifiche si salvano automaticamente su questo Mac.": {
+    "it": "Le modifiche si salvano automaticamente su questo Mac.",
+    "en": "Changes are saved automatically on this Mac."
+  },
+  "Lettura parziale: alcuni menu non hanno risposto in tempo.": {
+    "it": "Lettura parziale: alcuni menu non hanno risposto in tempo.",
+    "en": "Partial scan: some menus did not respond in time."
+  },
+  "Liquid Glass": {
+    "it": "Liquid Glass",
+    "en": "Liquid Glass"
+  },
+  "Lo sfondo rispetta anche Riduci trasparenza e Aumenta contrasto di macOS.": {
+    "it": "Lo sfondo rispetta anche Riduci trasparenza e Aumenta contrasto di macOS.",
+    "en": "The background also respects macOS Reduce Transparency and Increase Contrast settings."
+  },
+  "Menu accessibili": {
+    "it": "Menu accessibili",
+    "en": "Menus accessible"
+  },
+  "Metti in pausa / riprendi": {
+    "it": "Metti in pausa / riprendi",
+    "en": "Pause / resume"
+  },
+  "Modifica la ricerca o rimuovi un filtro. Per le app senza catalogo dedicato, attivale e abilita Accessibilità per leggerne i menu.": {
+    "it": "Modifica la ricerca o rimuovi un filtro. Per le app senza catalogo dedicato, attivale e abilita Accessibilità per leggerne i menu.",
+    "en": "Change your search or remove a filter. For apps without a dedicated catalog, activate the app and enable Accessibility to read its menus."
+  },
+  "Modificare testo": {
+    "it": "Modificare testo",
+    "en": "Edit text"
+  },
+  "Monitor e audio": {
+    "it": "Monitor e audio",
+    "en": "Display and audio"
+  },
+  "Mostra le note di contesto nel pannello": {
+    "it": "Mostra le note di contesto nel pannello",
+    "en": "Show context notes in the panel"
+  },
+  "Mostra le scorciatoie macOS": {
+    "it": "Mostra le scorciatoie macOS",
+    "en": "Show macOS shortcuts"
+  },
+  "Mostra tutti i tasti": {
+    "it": "Mostra tutti i tasti",
+    "en": "Show all keys"
+  },
+  "Mostrare e nascondere": {
+    "it": "Mostrare e nascondere",
+    "en": "Show and hide"
+  },
+  "Nascondi azione": {
+    "it": "Nascondi azione",
+    "en": "Hide action"
+  },
+  "Nascondi i comandi con condizioni d’uso": {
+    "it": "Nascondi i comandi con condizioni d’uso",
+    "en": "Hide commands with usage conditions"
+  },
+  "Nascondi i comandi non disponibili ora": {
+    "it": "Nascondi i comandi non disponibili ora",
+    "en": "Hide currently unavailable commands"
+  },
+  "Nascondi: ": {
+    "it": "Nascondi: ",
+    "en": "Hide: "
+  },
+  "Ripristina: ": {
+    "it": "Ripristina: ",
+    "en": "Restore: "
+  },
+  "Nel browser indicato": {
+    "it": "Nel browser indicato",
+    "en": "In the specified browser"
+  },
+  "Nel pannello": {
+    "it": "Nel pannello",
+    "en": "In the panel"
+  },
+  "Nell’editor": {
+    "it": "Nell’editor",
+    "en": "In the editor"
+  },
+  "Nella chat": {
+    "it": "Nella chat",
+    "en": "In the chat"
+  },
+  "Nella modalità indicata": {
+    "it": "Nella modalità indicata",
+    "en": "In the specified mode"
+  },
+  "Nella vista indicata": {
+    "it": "Nella vista indicata",
+    "en": "In the specified view"
+  },
+  "Nessun risultato": {
+    "it": "Nessun risultato",
+    "en": "No results"
+  },
+  "Nessuna combinazione visibile con questi tasti.": {
+    "it": "Nessuna combinazione visibile con questi tasti.",
+    "en": "No visible shortcuts for these keys."
+  },
+  "Nessuna personalizzazione leggibile rilevata. I comandi effettivi esposti nei menu vengono aggiunti automaticamente.": {
+    "it": "Nessuna personalizzazione leggibile rilevata. I comandi effettivi esposti nei menu vengono aggiunti automaticamente.",
+    "en": "No readable custom bindings found. Commands exposed in the app’s menus are added automatically."
+  },
+  "Nessuna scorciatoia nascosta": {
+    "it": "Nessuna scorciatoia nascosta",
+    "en": "No hidden shortcuts"
+  },
+  "Non ci sono azioni nascoste per questa app e questi filtri. Puoi scegliere un’altra app dal menu laterale.": {
+    "it": "Non ci sono azioni nascoste per questa app e questi filtri. Puoi scegliere un’altra app dal menu laterale.",
+    "en": "There are no hidden actions for this app and these filters. Choose another app in the sidebar."
+  },
+  "Non disponibile ora": {
+    "it": "Non disponibile ora",
+    "en": "Not available now"
+  },
+  "Nuova scheda": {
+    "it": "Nuova scheda",
+    "en": "New tab"
+  },
+  "Nuova scheda chat": {
+    "it": "Nuova scheda chat",
+    "en": "New chat tab"
+  },
+  "Nuova scheda del browser": {
+    "it": "Nuova scheda del browser",
+    "en": "New browser tab"
+  },
+  "Occorre una scheda chiusa che l’app possa ripristinare.": {
+    "it": "Occorre una scheda chiusa che l’app possa ripristinare.",
+    "en": "Requires a closed tab the app can restore."
+  },
+  "Passa all’app precedente": {
+    "it": "Passa all’app precedente",
+    "en": "Switch to previous app"
+  },
+  "Passa all’app successiva": {
+    "it": "Passa all’app successiva",
+    "en": "Switch to next app"
+  },
+  "Posizione del pannello": {
+    "it": "Posizione del pannello",
+    "en": "Panel position"
+  },
+  "Preferito: %@": {
+    "it": "Preferito: %@",
+    "en": "Favorite: %@"
+  },
+  "Presentare e disegnare": {
+    "it": "Presentare e disegnare",
+    "en": "Present and draw"
+  },
+  "Questa copia non riesce ancora a leggere i menu. Puoi già consultare il catalogo; se il pannello compare, il richiamo da tastiera funziona.": {
+    "it": "Questa copia non riesce ancora a leggere i menu. Puoi già consultare il catalogo; se il pannello compare, il richiamo da tastiera funziona.",
+    "en": "This copy cannot read menus yet. You can still browse the catalog; if the panel appears, keyboard activation is working."
+  },
+  "Riapri finestra chiusa": {
+    "it": "Riapri finestra chiusa",
+    "en": "Reopen closed window"
+  },
+  "Riapri scheda chiusa": {
+    "it": "Riapri scheda chiusa",
+    "en": "Reopen closed tab"
+  },
+  "Richiamo del pannello rilevato": {
+    "it": "Richiamo del pannello rilevato",
+    "en": "Panel activation detected"
+  },
+  "Richiede una selezione compatibile con il comando nell’app.": {
+    "it": "Richiede una selezione compatibile con il comando nell’app.",
+    "en": "Requires a selection compatible with this command in the app."
+  },
+  "Rilascia per chiudere": {
+    "it": "Rilascia per chiudere",
+    "en": "Release to close"
+  },
+  "Rimuovi dai preferiti": {
+    "it": "Rimuovi dai preferiti",
+    "en": "Remove from favorites"
+  },
+  "Ripristina azione": {
+    "it": "Ripristina azione",
+    "en": "Restore action"
+  },
+  "Ripristina riconoscimento automatico": {
+    "it": "Ripristina riconoscimento automatico",
+    "en": "Restore automatic detection"
+  },
+  "Ripristina tutte": {
+    "it": "Ripristina tutte",
+    "en": "Restore all"
+  },
+  "Scegliere e confermare": {
+    "it": "Scegliere e confermare",
+    "en": "Choose and confirm"
+  },
+  "Schede e finestre": {
+    "it": "Schede e finestre",
+    "en": "Tabs and windows"
+  },
+  "Scorciatoie · Apri impostazioni": {
+    "it": "Scorciatoie · Apri impostazioni",
+    "en": "Scorciatoie · Open settings"
+  },
+  "Scorciatoie · Impostazioni": {
+    "it": "Scorciatoie · Impostazioni",
+    "en": "Scorciatoie · Settings"
+  },
+  "Scorciatoie · Impostazioni (clic destro: Studio e comandi)": {
+    "it": "Scorciatoie · Impostazioni (clic destro: Studio e comandi)",
+    "en": "Scorciatoie · Settings (right-click: Studio and commands)"
+  },
+  "Scorciatoie · Studio": {
+    "it": "Scorciatoie · Studio",
+    "en": "Scorciatoie · Studio"
+  },
+  "Scorciatoie · Pannello": {
+    "it": "Scorciatoie · Pannello",
+    "en": "Scorciatoie · Panel"
+  },
+  "Scorciatoie disponibili · tutte insieme": {
+    "it": "Scorciatoie disponibili · tutte insieme",
+    "en": "Available shortcuts · all together"
+  },
+  "Screenshot e registrazione": {
+    "it": "Screenshot e registrazione",
+    "en": "Screenshots and recording"
+  },
+  "Scrittura e modifica": {
+    "it": "Scrittura e modifica",
+    "en": "Writing and editing"
+  },
+  "Scrivere e rispondere": {
+    "it": "Scrivere e rispondere",
+    "en": "Write and reply"
+  },
+  "Seleziona il profilo del programma che stai usando nel terminale. Non viene letto il contenuto del terminale.": {
+    "it": "Seleziona il profilo del programma che stai usando nel terminale. Non viene letto il contenuto del terminale.",
+    "en": "Choose the profile for the program you’re using in the terminal. Terminal contents are not read."
+  },
+  "Seleziona tutto": {
+    "it": "Seleziona tutto",
+    "en": "Select all"
+  },
+  "Serve una destinazione che accetti il contenuto degli appunti.": {
+    "it": "Serve una destinazione che accetti il contenuto degli appunti.",
+    "en": "Requires a destination that accepts the clipboard contents."
+  },
+  "Sezione Code": {
+    "it": "Sezione Code",
+    "en": "Code section"
+  },
+  "Sezione impostazioni": {
+    "it": "Sezione impostazioni",
+    "en": "Settings section"
+  },
+  "Sfondo del pannello": {
+    "it": "Sfondo del pannello",
+    "en": "Panel background"
+  },
+  "Shift da solo attende almeno 0,7 secondi. Se digiti un carattere, l’apertura viene annullata fino al rilascio.": {
+    "it": "Shift da solo attende almeno 0,7 secondi. Se digiti un carattere, l’apertura viene annullata fino al rilascio.",
+    "en": "Shift alone waits at least 0.7 seconds. Typing a character cancels activation until you release the keys."
+  },
+  "Solo preferiti": {
+    "it": "Solo preferiti",
+    "en": "Favorites only"
+  },
+  "Spostarsi tra cartelle": {
+    "it": "Spostarsi tra cartelle",
+    "en": "Navigate folders"
+  },
+  "Sviluppare e debuggare": {
+    "it": "Sviluppare e debuggare",
+    "en": "Develop and debug"
+  },
+  "Tabelle e celle": {
+    "it": "Tabelle e celle",
+    "en": "Tables and cells"
+  },
+  "Tasti da verificare": {
+    "it": "Tasti da verificare",
+    "en": "Keys to verify"
+  },
+  "Tasti: %@": {
+    "it": "Tasti: %@",
+    "en": "Keys: %@"
+  },
+  "Terminale attivo": {
+    "it": "Terminale attivo",
+    "en": "Terminal focused"
+  },
+  "Terminale e debug": {
+    "it": "Terminale e debug",
+    "en": "Terminal and debugging"
+  },
+  "Tieni premuto uno dei tasti attivi per vedere il pannello.": {
+    "it": "Tieni premuto uno dei tasti attivi per vedere il pannello.",
+    "en": "Hold one of the enabled keys to show the panel."
+  },
+  "Tutti i tasti": {
+    "it": "Tutti i tasti",
+    "en": "All keys"
+  },
+  "Usa la zona attiva e lo stato dei menu. I comandi interni di terminale e browser compaiono solo quando la zona è riconosciuta. Studio conserva tutto il catalogo.": {
+    "it": "Usa la zona attiva e lo stato dei menu. I comandi interni di terminale e browser compaiono solo quando la zona è riconosciuta. Studio conserva tutto il catalogo.",
+    "en": "Uses the focused area and menu state. Internal terminal and browser commands appear only when the area is recognized. Studio keeps the full catalog."
+  },
+  "Usa nel pannello per %@": {
+    "it": "Usa nel pannello per %@",
+    "en": "Use in the panel for %@"
+  },
+  "Uso generale": {
+    "it": "Uso generale",
+    "en": "General use"
+  },
+  "Verifica menu delle app aperte…": {
+    "it": "Verifica menu delle app aperte…",
+    "en": "Check menus of running apps…"
+  },
+  "Verifica menu salvata": {
+    "it": "Verifica menu salvata",
+    "en": "Menu check saved"
+  },
+  "Zoom e dimensioni": {
+    "it": "Zoom e dimensioni",
+    "en": "Zoom and size"
+  },
+  "macOS · in tutte le app": {
+    "it": "macOS · in tutte le app",
+    "en": "macOS · in every app"
+  },
+  "★ salva i preferiti · l’occhio nasconde un’azione. In Nascoste puoi recuperarla. Vale anche per macOS.": {
+    "it": "★ salva i preferiti · l’occhio nasconde un’azione. In Nascoste puoi recuperarla. Vale anche per macOS.",
+    "en": "★ saves favorites · the eye hides an action. Restore it in Hidden. This works for macOS shortcuts too."
+  },
+  "Campo di testo": {
+    "it": "Campo di testo",
+    "en": "Text field"
+  },
+  "Editor attivo": {
+    "it": "Editor attivo",
+    "en": "Editor focused"
+  },
+  "Pagina del browser": {
+    "it": "Pagina del browser",
+    "en": "Browser page"
+  },
+  "Contesto dell’app": {
+    "it": "Contesto dell’app",
+    "en": "App context"
+  },
+  "Contesto parziale": {
+    "it": "Contesto parziale",
+    "en": "Partial context"
+  },
+  "Nessuna finestra": {
+    "it": "Nessuna finestra",
+    "en": "No window"
+  },
+  "◐ condizione d’uso": {
+    "it": "◐ condizione d’uso",
+    "en": "◐ usage condition"
+  },
+  "Browser attivo": {
+    "it": "Browser attivo",
+    "en": "Browser focused"
+  },
+  "Menu aperto": {
+    "it": "Menu aperto",
+    "en": "Menu open"
+  },
+  "Prompt suggerito": {
+    "it": "Prompt suggerito",
+    "en": "Suggested prompt"
+  },
+  "Risposta in corso": {
+    "it": "Risposta in corso",
+    "en": "Response in progress"
+  },
+  "Sessioni affiancate": {
+    "it": "Sessioni affiancate",
+    "en": "Split sessions"
+  },
+  "Titolo originale: %@": {
+    "it": "Titolo originale: %@",
+    "en": "Original title: %@"
+  },
+  "Fonte originale: %@": {
+    "it": "Fonte originale: %@",
+    "en": "Original source: %@"
+  },
+  "Catalogo non leggibile: %@": {
+    "it": "Catalogo non leggibile: %@",
+    "en": "Cannot read catalog: %@"
+  },
+  "Menu non disponibile (AX %d). Riprova con l’app in primo piano.": {
+    "it": "Menu non disponibile (AX %d). Riprova con l’app in primo piano.",
+    "en": "Menu unavailable (AX %d). Try again with the app in the foreground."
+  },
+  "%d scorciatoie lette dai menu · altri comandi possono dipendere dal contesto.": {
+    "it": "%d scorciatoie lette dai menu · altri comandi possono dipendere dal contesto.",
+    "en": "%d shortcuts read from menus · other commands may depend on context."
+  },
+  "%d assegnazioni lette da %d file di configurazione. Le condizioni delle estensioni restano da verificare.": {
+    "it": "%d assegnazioni lette da %d file di configurazione. Le condizioni delle estensioni restano da verificare.",
+    "en": "%d bindings read from %d configuration files. Extension conditions may need verification."
+  },
+  "%d file non leggibili; %d combinazioni non interpretate.": {
+    "it": "%d file non leggibili; %d combinazioni non interpretate.",
+    "en": "%d unreadable files; %d unparsed key combinations."
+  },
+  "Rilevate %d app. Il rapporto contiene conteggi e stato di lettura; non esegue alcun comando.": {
+    "it": "Rilevate %d app. Il rapporto contiene conteggi e stato di lettura; non esegue alcun comando.",
+    "en": "Found %d apps. The report contains counts and scan status; it does not execute any commands."
+  },
+  "Impossibile completare l’operazione": {
+    "it": "Impossibile completare l’operazione",
+    "en": "Could not complete the operation"
+  },
+  "Dettagli del sistema: %@": {
+    "it": "Dettagli del sistema: %@",
+    "en": "System details: %@"
+  },
+  "⌘  ⌥  ⌃  ⇧  fn\nTieni premuto un modificatore per aprire il pannello nell’app attiva.": {
+    "it": "⌘  ⌥  ⌃  ⇧  fn\nTieni premuto un modificatore per aprire il pannello nell’app attiva.",
+    "en": "⌘  ⌥  ⌃  ⇧  fn\nHold a modifier to show the panel in the active app."
+  }
+}

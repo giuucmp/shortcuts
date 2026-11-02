@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T15:55:54.764987+00:00",
+  "title": "Design System: Scorciatoie website",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Cool canvas"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White surface"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Navy ink"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Supporting slate"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Action blue"
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Deep action blue"
+      },
+      "soft-blue": {
+        "role": "primary",
+        "displayName": "Soft selection blue"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Structural line"
+      },
+      "scrollbar": {
+        "role": "neutral",
+        "displayName": "Scrollbar slate"
+      },
+      "selection-ink": {
+        "role": "primary",
+        "displayName": "Selection ink"
+      },
+      "selection-fill": {
+        "role": "primary",
+        "displayName": "Selection fill"
+      },
+      "panel-stage": {
+        "role": "neutral",
+        "displayName": "Panel stage"
+      },
+      "practice-stage": {
+        "role": "neutral",
+        "displayName": "Practice stage"
+      },
+      "list-divider": {
+        "role": "neutral",
+        "displayName": "List divider"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Landing-page hero heading."
+      },
+      "display-mobile": {
+        "displayName": "Display mobile",
+        "purpose": "Landing and 404 h1 at widths up to 700px."
+      },
+      "display-fallback": {
+        "displayName": "Display fallback",
+        "purpose": "Shared desktop h1, visible on the 404 page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Main section headings."
+      },
+      "headline-source": {
+        "displayName": "Headline source",
+        "purpose": "Open-source section heading."
+      },
+      "heading": {
+        "displayName": "Heading",
+        "purpose": "Step and demo headings."
+      },
+      "heading-detail": {
+        "displayName": "Heading detail",
+        "purpose": "Studio detail headings."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Desktop product name."
+      },
+      "brand-mobile": {
+        "displayName": "Brand mobile",
+        "purpose": "Mobile product name."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "All hero-introduction direct paragraphs, including release metadata and install note."
+      },
+      "lead-compact": {
+        "displayName": "Lead compact",
+        "purpose": "Hero-introduction direct paragraphs at widths up to 900px."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default desktop copy."
+      },
+      "body-compact": {
+        "displayName": "Body compact",
+        "purpose": "Mobile body, steps and expanded disclosures."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Desktop navigation, result rows and Studio detail copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Supporting copy and mobile navigation."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Generic metadata, status and footer. Hero-specific paragraphs use lead instead."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "App-image captions."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Download labels."
+      },
+      "disclosure": {
+        "displayName": "Disclosure",
+        "purpose": "Native disclosure summary."
+      },
+      "step-number": {
+        "displayName": "Step number",
+        "purpose": "Tabular ordered-step counter."
+      },
+      "path": {
+        "displayName": "Path",
+        "purpose": "Installation path emphasis; surrounding size is inherited."
+      },
+      "key-symbol": {
+        "displayName": "Key symbol",
+        "purpose": "Actual modifier symbol."
+      },
+      "key-name": {
+        "displayName": "Key name",
+        "purpose": "Corrected modifier name label."
+      },
+      "keyboard-chord": {
+        "displayName": "Keyboard chord",
+        "purpose": "Shortcut notation."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-color",
+        "value": "140ms ease-out",
+        "purpose": "Download background and modifier background/border color; disabled with reduced motion."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "Anchor navigation; replaced with auto under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "900px"
+      },
+      {
+        "name": "single-column",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Download action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The direct download action with its actual hover and keyboard-focus states.",
+      "html": "<a class=\"ds-download\" href=\"#download\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Download for Mac</a>",
+      "css": ".ds-download{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 21px;min-height:50px;background:var(--accent, #1658c5);color:var(--surface, #ffffff);border-radius:10px;text-decoration:none;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:16px;font-weight:600;line-height:1.6;transition:background-color 140ms ease-out}.ds-download:hover{background:var(--accent-hover, #10469f);text-decoration:none}.ds-download:focus-visible{outline:3px solid var(--accent, #1658c5);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-download{transition:none}}"
+    },
+    {
+      "name": "Modifier — unselected",
+      "kind": "button",
+      "refersTo": "modifier",
+      "description": "A modifier with both symbol and accessible text; the site toggles aria-pressed on click.",
+      "html": "<button class=\"ds-key\" type=\"button\" aria-pressed=\"false\"><span aria-hidden=\"true\">⌥</span><small>Option</small></button>",
+      "css": ".ds-key{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:66px;min-height:66px;padding:7px 11px;background:var(--canvas, #f7f8fa);color:var(--ink, #172237);border:1px solid var(--line, #ccd5e2);border-radius:9px;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;cursor:pointer;transition:background-color 140ms ease-out,border-color 140ms ease-out}.ds-key span{font-size:25px;line-height:1}.ds-key small{font-size:12px;line-height:1.7;margin-top:4px}.ds-key:hover{border-color:var(--accent, #1658c5)}.ds-key[aria-pressed=\"true\"]{color:var(--accent, #1658c5);background:var(--soft-blue, #e9f0fc);border-color:var(--accent, #1658c5)}.ds-key:focus-visible{outline:3px solid var(--accent, #1658c5);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-key{transition:none}}"
+    },
+    {
+      "name": "Modifier — selected",
+      "kind": "button",
+      "refersTo": "modifier-selected",
+      "description": "The existing selected state, retaining its border and label distinctions.",
+      "html": "<button class=\"ds-key\" type=\"button\" aria-pressed=\"true\"><span aria-hidden=\"true\">⌘</span><small>Command</small></button>",
+      "css": ".ds-key{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:66px;min-height:66px;padding:7px 11px;background:var(--canvas, #f7f8fa);color:var(--ink, #172237);border:1px solid var(--line, #ccd5e2);border-radius:9px;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;cursor:pointer;transition:background-color 140ms ease-out,border-color 140ms ease-out}.ds-key span{font-size:25px;line-height:1}.ds-key small{font-size:12px;line-height:1.7;margin-top:4px}.ds-key:hover{border-color:var(--accent, #1658c5)}.ds-key[aria-pressed=\"true\"]{color:var(--accent, #1658c5);background:var(--soft-blue, #e9f0fc);border-color:var(--accent, #1658c5)}.ds-key:focus-visible{outline:3px solid var(--accent, #1658c5);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-key{transition:none}}"
+    },
+    {
+      "name": "Navigation and language",
+      "kind": "nav",
+      "refersTo": "language-link",
+      "description": "Quiet page links and the outlined, visibly named language control.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-desktop\" href=\"#how\">How it works</a><a href=\"#source\">Source</a><a class=\"ds-language\" href=\"#italiano\" lang=\"it\">Italiano</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;flex-wrap:wrap;gap:25px;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:15px;line-height:1.6}.ds-nav a{text-decoration:none;color:var(--muted, #526075)}.ds-nav a:hover{color:var(--accent, #1658c5)}.ds-nav .ds-language{color:var(--ink, #172237);border:1px solid var(--line, #ccd5e2);padding:5px 11px;border-radius:7px}.ds-nav a:focus-visible{outline:3px solid var(--accent, #1658c5);outline-offset:5px;}@media(max-width:700px){.ds-nav{gap:13px;font-size:14px}.ds-desktop{display:none}}"
+    },
+    {
+      "name": "Demo card and shortcut row",
+      "kind": "card",
+      "refersTo": "demo-card",
+      "description": "The existing white demo surface and a representative shortcut result row.",
+      "html": "<div class=\"ds-demo\"><h3>Try the filter</h3><p>Click the keys below. These are a few Finder examples, not the app itself.</p><ul><li><span>New Finder window</span><kbd>⌘N</kbd></li></ul></div>",
+      "css": ".ds-demo{padding:26px 28px 20px;border:1px solid var(--line, #ccd5e2);border-radius:var(--radius, 14px);background:var(--surface, #ffffff);color:var(--ink, #172237);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;line-height:1.6}.ds-demo h3{margin:0 0 7px;font-size:22px;line-height:1.25;font-weight:650;letter-spacing:-.015em}.ds-demo p{color:var(--muted, #526075);font-size:14px;margin:0 0 20px}.ds-demo ul{list-style:none;margin:24px 0 0;padding:0}.ds-demo li{padding:10px 0;display:flex;justify-content:space-between;align-items:center;gap:15px;border-top:1px solid #e1e6ee;font-size:15px}.ds-demo kbd{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:16px;font-weight:600;letter-spacing:.06em;color:var(--accent, #1658c5);white-space:nowrap}@media(max-width:900px){.ds-demo{padding:22px}}"
+    },
+    {
+      "name": "Native disclosure",
+      "kind": "custom",
+      "refersTo": "disclosure",
+      "description": "A native details/summary row with the actual focus treatment and disclosure type.",
+      "html": "<details class=\"ds-disclosure\"><summary>Can I change or remove it?</summary><p>Yes. Pause or quit it from the menu bar, revoke Accessibility permission in System Settings, or remove the app from Applications.</p></details>",
+      "css": ".ds-disclosure{border-bottom:1px solid var(--line, #ccd5e2);padding-block:20px;color:var(--ink, #172237);font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;line-height:1.6}.ds-disclosure summary{font-weight:600;font-size:18px;cursor:pointer;line-height:1.4;padding-right:12px}.ds-disclosure summary:focus-visible{outline:3px solid var(--accent, #1658c5);outline-offset:5px;}.ds-disclosure p{color:var(--muted, #526075);font-size:16px;margin:14px 0 0;max-width:70ch}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A shortcut, close to the work.",
+    "overview": "Expand the existing native app identity through its blue Command icon, platform typography and quiet hierarchy. Pale neutral surfaces, precise blue actions and genuine localized app images make the product recognizable without creating a second brand.\n\nThe system is light, restrained and readable. Spacing separates content; thin borders and tonal changes identify controls and groups. Native app materials remain inside the product images; the website itself uses flat surfaces.",
+    "keyCharacteristics": [
+      "The existing blue Command app icon and platform system family.",
+      "A single functional blue accent on cool neutral surfaces.",
+      "Uncropped, localized production-view renders with full-size access.",
+      "Visible interaction states, restrained motion and responsive reading widths."
+    ],
+    "rules": [
+      {
+        "name": "Color has a job",
+        "body": "Use the accent for actions, links, key combinations and selected modifier controls; use neutral tones to organize reading.",
+        "section": "colors"
+      },
+      {
+        "name": "Native continuity",
+        "body": "Preserve the existing app icon and the explicitly selected platform system font stack.",
+        "section": "typography"
+      },
+      {
+        "name": "Flat surfaces, clear groups",
+        "body": "Use tonal surfaces and thin borders for the website; do not add shadows to establish its hierarchy.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the blue Command icon and the platform system font family.",
+      "Do show actual localized app renders at their complete aspect ratio, with meaningful alternative text and a full-size link.",
+      "Do retain the accent focus ring, pressed-state semantics and reduced-motion behavior.",
+      "Do use the documented responsive roles and spacing rather than adding an unrelated scale."
+    ],
+    "donts": [
+      "Don’t introduce an external font or substitute a new app identity.",
+      "Don’t use keyboard glyphs as decoration; they identify actual modifiers and shortcut combinations here.",
+      "Don’t add decorative glass, gradients or shadows to the website’s flat surfaces.",
+      "Don’t use fabricated app screens or style an unavailable-image fallback as a screenshot."
+    ]
+  }
+}

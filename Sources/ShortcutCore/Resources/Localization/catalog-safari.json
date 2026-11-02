@@ -1,0 +1,1002 @@
+{
+  "Sviluppare e debuggare": {
+    "it": "Sviluppare e debuggare",
+    "en": "Develop and debug"
+  },
+  "Menu Sviluppo": {
+    "it": "Menu Sviluppo",
+    "en": "Develop menu"
+  },
+  "Safari · Web Inspector": {
+    "it": "Safari · Web Inspector",
+    "en": "Safari · Web Inspector"
+  },
+  "Safari · menu Sviluppo attivo": {
+    "it": "Safari · menu Sviluppo attivo",
+    "en": "Safari · Develop menu enabled"
+  },
+  "Richiede Safari > Impostazioni > Avanzate > Mostra funzionalità per sviluppatori web. Combinazione documentata da Apple; disponibilità nella finestra attuale non verificata.": {
+    "it": "Richiede Safari > Impostazioni > Avanzate > Mostra funzionalità per sviluppatori web. Combinazione documentata da Apple; disponibilità nella finestra attuale non verificata.",
+    "en": "Requires Safari > Settings > Advanced > Show features for web developers. Apple-documented shortcut; availability in the current window has not been verified."
+  },
+  "Riferimento WebKit aggiornato per Safari Technology Preview 156 (31 ottobre 2022). Richiede Web Inspector attivo e il contesto indicato; non è una verifica completa della versione installata.": {
+    "it": "Riferimento WebKit aggiornato per Safari Technology Preview 156 (31 ottobre 2022). Richiede Web Inspector attivo e il contesto indicato; non è una verifica completa della versione installata.",
+    "en": "WebKit reference updated for Safari Technology Preview 156 (October 31, 2022). Requires an active Web Inspector and the stated context; this is not complete verification of the installed version."
+  },
+  "Voce documentata del menu Sviluppo, senza combinazione di tasti verificata. Le voci per dispositivi, app ed estensioni dipendono dai contenuti ispezionabili disponibili.": {
+    "it": "Voce documentata del menu Sviluppo, senza combinazione di tasti verificata. Le voci per dispositivi, app ed estensioni dipendono dai contenuti ispezionabili disponibili.",
+    "en": "Documented Develop menu item without a verified key binding. Device, app, and extension entries depend on available inspectable content."
+  },
+  "Dal menu Sviluppo · nessun tasto documentato": {
+    "it": "Dal menu Sviluppo · nessun tasto documentato",
+    "en": "Develop menu · no documented key binding"
+  },
+  "Comandi interni di Web Inspector, separati dalla navigazione nelle pagine. Include le combinazioni della guida WebKit per STP 156 e i gesti documentati, con contesti espliciti. La disponibilità effettiva va verificata nella versione in uso.": {
+    "it": "Comandi interni di Web Inspector, separati dalla navigazione nelle pagine. Include le combinazioni della guida WebKit per STP 156 e i gesti documentati, con contesti espliciti. La disponibilità effettiva va verificata nella versione in uso.",
+    "en": "Internal Web Inspector commands, separate from page browsing. Includes the WebKit STP 156 reference bindings and documented gestures, with explicit contexts. Actual availability must be checked in the version in use."
+  },
+  "Catalogo Safari con menu Sviluppo. Le scorciatoie di sviluppo richiedono le funzionalità per sviluppatori web; i comandi interni di Web Inspector hanno un profilo separato. Combinazioni da fonti Apple/WebKit, senza verifica del menu attuale.": {
+    "it": "Catalogo Safari con menu Sviluppo. Le scorciatoie di sviluppo richiedono le funzionalità per sviluppatori web; i comandi interni di Web Inspector hanno un profilo separato. Combinazioni da fonti Apple/WebKit, senza verifica del menu attuale.",
+    "en": "Safari catalog including the Develop menu. Developer shortcuts require web developer features; internal Web Inspector commands have a separate profile. Bindings come from Apple/WebKit sources, without verification of the current menu."
+  },
+  "Attiva o disattiva la modalità di progettazione adattiva": {
+    "it": "Attiva o disattiva la modalità di progettazione adattiva",
+    "en": "Toggle Responsive Design Mode"
+  },
+  "Mostra o nascondi Web Inspector": {
+    "it": "Mostra o nascondi Web Inspector",
+    "en": "Show or hide Web Inspector"
+  },
+  "Mostra la console JavaScript": {
+    "it": "Mostra la console JavaScript",
+    "en": "Show the JavaScript console"
+  },
+  "Mostra il sorgente della pagina": {
+    "it": "Mostra il sorgente della pagina",
+    "en": "Show page source"
+  },
+  "Mostra le risorse della pagina": {
+    "it": "Mostra le risorse della pagina",
+    "en": "Show page resources"
+  },
+  "Avvia o interrompi la registrazione della timeline": {
+    "it": "Avvia o interrompi la registrazione della timeline",
+    "en": "Start or stop timeline recording"
+  },
+  "Avvia o interrompi la selezione degli elementi": {
+    "it": "Avvia o interrompi la selezione degli elementi",
+    "en": "Start or stop element selection"
+  },
+  "Svuota le cache": {
+    "it": "Svuota le cache",
+    "en": "Empty caches"
+  },
+  "Apri la pagina con un altro browser o simulatore": {
+    "it": "Apri la pagina con un altro browser o simulatore",
+    "en": "Open the page in another browser or simulator"
+  },
+  "Scegli lo user agent": {
+    "it": "Scegli lo user agent",
+    "en": "Choose the user agent"
+  },
+  "Ispeziona app e dispositivi": {
+    "it": "Ispeziona app e dispositivi",
+    "en": "Inspect apps and devices"
+  },
+  "Ispeziona un service worker": {
+    "it": "Ispeziona un service worker",
+    "en": "Inspect a service worker"
+  },
+  "Ispeziona i contenuti in background delle estensioni web": {
+    "it": "Ispeziona i contenuti in background delle estensioni web",
+    "en": "Inspect web extension background content"
+  },
+  "Apri le impostazioni per sviluppatori": {
+    "it": "Apri le impostazioni per sviluppatori",
+    "en": "Open Developer settings"
+  },
+  "Apri le impostazioni dei flag delle funzionalità": {
+    "it": "Apri le impostazioni dei flag delle funzionalità",
+    "en": "Open Feature Flag settings"
+  },
+  "Safari · menu Sviluppo attivo · Dispositivo o simulatore con contenuti ispezionabili": {
+    "it": "Safari · menu Sviluppo attivo · Dispositivo o simulatore con contenuti ispezionabili",
+    "en": "Safari · Develop menu enabled · Device or simulator with inspectable content"
+  },
+  "Ispeziona i contenuti di un dispositivo o simulatore": {
+    "it": "Ispeziona i contenuti di un dispositivo o simulatore",
+    "en": "Inspect content on a device or simulator"
+  },
+  "Safari · menu Sviluppo attivo · Dispositivo abbinato e sulla stessa rete": {
+    "it": "Safari · menu Sviluppo attivo · Dispositivo abbinato e sulla stessa rete",
+    "en": "Safari · Develop menu enabled · Paired device on the same network"
+  },
+  "Collega il dispositivo tramite rete": {
+    "it": "Collega il dispositivo tramite rete",
+    "en": "Connect the device via network"
+  },
+  "Safari · menu Sviluppo attivo · Dispositivo abbinato tramite rete": {
+    "it": "Safari · menu Sviluppo attivo · Dispositivo abbinato tramite rete",
+    "en": "Safari · Develop menu enabled · Device paired over the network"
+  },
+  "Annulla l’abbinamento del dispositivo": {
+    "it": "Annulla l’abbinamento del dispositivo",
+    "en": "Unpair the device"
+  },
+  "Safari · menu Sviluppo attivo · Menu del dispositivo · contesti JavaScript ispezionabili": {
+    "it": "Safari · menu Sviluppo attivo · Menu del dispositivo · contesti JavaScript ispezionabili",
+    "en": "Safari · Develop menu enabled · Device menu · inspectable JavaScript contexts"
+  },
+  "Mostra automaticamente Web Inspector per JSContext": {
+    "it": "Mostra automaticamente Web Inspector per JSContext",
+    "en": "Automatically show Web Inspector for JSContexts"
+  },
+  "Metti automaticamente in pausa i JSContext alla connessione": {
+    "it": "Metti automaticamente in pausa i JSContext alla connessione",
+    "en": "Automatically pause JSContexts on connection"
+  },
+  "Apri o chiudi Web Inspector": {
+    "it": "Apri o chiudi Web Inspector",
+    "en": "Open or close Web Inspector"
+  },
+  "Web Inspector attivo · Finestra di Web Inspector": {
+    "it": "Web Inspector attivo · Finestra di Web Inspector",
+    "en": "Active Web Inspector · Web Inspector window"
+  },
+  "Web Inspector": {
+    "it": "Web Inspector",
+    "en": "Web Inspector"
+  },
+  "Collega o scollega Web Inspector": {
+    "it": "Collega o scollega Web Inspector",
+    "en": "Connect or disconnect Web Inspector"
+  },
+  "Vai a un file o a una risorsa": {
+    "it": "Vai a un file o a una risorsa",
+    "en": "Go to a file or resource"
+  },
+  "Ricarica la pagina ispezionata": {
+    "it": "Ricarica la pagina ispezionata",
+    "en": "Reload the inspected page"
+  },
+  "Ricarica la pagina ispezionata dall’origine": {
+    "it": "Ricarica la pagina ispezionata dall’origine",
+    "en": "Reload the inspected page from origin"
+  },
+  "Ripristina la configurazione di ancoraggio precedente": {
+    "it": "Ripristina la configurazione di ancoraggio precedente",
+    "en": "Switch to the previous docking configuration"
+  },
+  "Aumenta lo zoom di Web Inspector": {
+    "it": "Aumenta lo zoom di Web Inspector",
+    "en": "Increase Web Inspector zoom"
+  },
+  "Riduci lo zoom di Web Inspector": {
+    "it": "Riduci lo zoom di Web Inspector",
+    "en": "Decrease Web Inspector zoom"
+  },
+  "Ripristina lo zoom di Web Inspector": {
+    "it": "Ripristina lo zoom di Web Inspector",
+    "en": "Reset Web Inspector zoom"
+  },
+  "Mostra la barra di ricerca": {
+    "it": "Mostra la barra di ricerca",
+    "en": "Show the find bar"
+  },
+  "Web Inspector attivo · Contenuto ricercabile": {
+    "it": "Web Inspector attivo · Contenuto ricercabile",
+    "en": "Active Web Inspector · Searchable content"
+  },
+  "Ricerca in Web Inspector": {
+    "it": "Ricerca in Web Inspector",
+    "en": "Web Inspector search"
+  },
+  "Usa la selezione per la ricerca": {
+    "it": "Usa la selezione per la ricerca",
+    "en": "Use the selection for finding"
+  },
+  "Web Inspector attivo · Testo selezionato": {
+    "it": "Web Inspector attivo · Testo selezionato",
+    "en": "Active Web Inspector · Selected text"
+  },
+  "Nascondi la barra di ricerca": {
+    "it": "Nascondi la barra di ricerca",
+    "en": "Hide the find bar"
+  },
+  "Web Inspector attivo · Barra di ricerca attiva": {
+    "it": "Web Inspector attivo · Barra di ricerca attiva",
+    "en": "Active Web Inspector · Focused find bar"
+  },
+  "Trova la corrispondenza successiva": {
+    "it": "Trova la corrispondenza successiva",
+    "en": "Find the next match"
+  },
+  "Web Inspector attivo · Ricerca · scrittura da sinistra a destra o da destra a sinistra": {
+    "it": "Web Inspector attivo · Ricerca · scrittura da sinistra a destra o da destra a sinistra",
+    "en": "Active Web Inspector · Find · left-to-right or right-to-left writing direction"
+  },
+  "Trova la corrispondenza precedente": {
+    "it": "Trova la corrispondenza precedente",
+    "en": "Find the previous match"
+  },
+  "Cerca in tutti i file e le risorse": {
+    "it": "Cerca in tutti i file e le risorse",
+    "en": "Search all files and resources"
+  },
+  "Web Inspector attivo · Ricerca nelle risorse": {
+    "it": "Web Inspector attivo · Ricerca nelle risorse",
+    "en": "Active Web Inspector · Resource search"
+  },
+  "Seleziona il nodo fratello precedente": {
+    "it": "Seleziona il nodo fratello precedente",
+    "en": "Select the previous sibling node"
+  },
+  "Web Inspector attivo · Struttura ad albero · Nodo selezionato": {
+    "it": "Web Inspector attivo · Struttura ad albero · Nodo selezionato",
+    "en": "Active Web Inspector · Tree outline · Selected node"
+  },
+  "Strutture ad albero": {
+    "it": "Strutture ad albero",
+    "en": "Tree outlines"
+  },
+  "Seleziona il nodo fratello successivo": {
+    "it": "Seleziona il nodo fratello successivo",
+    "en": "Select the next sibling node"
+  },
+  "Seleziona il primo nodo figlio": {
+    "it": "Seleziona il primo nodo figlio",
+    "en": "Select the first child node"
+  },
+  "Web Inspector attivo · Struttura ad albero · Nodo selezionato espanso": {
+    "it": "Web Inspector attivo · Struttura ad albero · Nodo selezionato espanso",
+    "en": "Active Web Inspector · Tree outline · Expanded selected node"
+  },
+  "Comprimi i nodi figli": {
+    "it": "Comprimi i nodi figli",
+    "en": "Collapse child nodes"
+  },
+  "Comprimi ricorsivamente i nodi figli": {
+    "it": "Comprimi ricorsivamente i nodi figli",
+    "en": "Recursively collapse child nodes"
+  },
+  "Espandi i nodi figli": {
+    "it": "Espandi i nodi figli",
+    "en": "Expand child nodes"
+  },
+  "Web Inspector attivo · Struttura ad albero · Nodo selezionato compresso": {
+    "it": "Web Inspector attivo · Struttura ad albero · Nodo selezionato compresso",
+    "en": "Active Web Inspector · Tree outline · Collapsed selected node"
+  },
+  "Seleziona il nodo genitore": {
+    "it": "Seleziona il nodo genitore",
+    "en": "Select the parent node"
+  },
+  "Espandi ricorsivamente il nodo genitore": {
+    "it": "Espandi ricorsivamente il nodo genitore",
+    "en": "Recursively expand the parent node"
+  },
+  "Attiva o disattiva il nodo": {
+    "it": "Attiva o disattiva il nodo",
+    "en": "Enable or disable the node"
+  },
+  "Web Inspector attivo · Struttura ad albero · Nodo disattivabile selezionato": {
+    "it": "Web Inspector attivo · Struttura ad albero · Nodo disattivabile selezionato",
+    "en": "Active Web Inspector · Tree outline · Selected node supports disabling"
+  },
+  "Inizia a modificare il nodo": {
+    "it": "Inizia a modificare il nodo",
+    "en": "Start editing the node"
+  },
+  "Web Inspector attivo · Struttura ad albero · Nodo modificabile selezionato": {
+    "it": "Web Inspector attivo · Struttura ad albero · Nodo modificabile selezionato",
+    "en": "Active Web Inspector · Tree outline · Selected node supports editing"
+  },
+  "Rimuovi il nodo selezionato": {
+    "it": "Rimuovi il nodo selezionato",
+    "en": "Remove the selected node"
+  },
+  "Web Inspector attivo · Struttura ad albero · Nodo rimovibile selezionato": {
+    "it": "Web Inspector attivo · Struttura ad albero · Nodo rimovibile selezionato",
+    "en": "Active Web Inspector · Tree outline · Selected node supports removal"
+  },
+  "Annulla la modifica al codice": {
+    "it": "Annulla la modifica al codice",
+    "en": "Undo the code edit"
+  },
+  "Web Inspector attivo · Editor di testo attivo": {
+    "it": "Web Inspector attivo · Editor di testo attivo",
+    "en": "Active Web Inspector · Focused text editor"
+  },
+  "Editor di Web Inspector": {
+    "it": "Editor di Web Inspector",
+    "en": "Web Inspector editor"
+  },
+  "Ripristina la modifica al codice": {
+    "it": "Ripristina la modifica al codice",
+    "en": "Redo the code edit"
+  },
+  "Copia il testo nell’editor": {
+    "it": "Copia il testo nell’editor",
+    "en": "Copy text in the editor"
+  },
+  "Taglia il testo nell’editor": {
+    "it": "Taglia il testo nell’editor",
+    "en": "Cut text in the editor"
+  },
+  "Incolla il testo nell’editor": {
+    "it": "Incolla il testo nell’editor",
+    "en": "Paste text in the editor"
+  },
+  "Seleziona tutto il testo nell’editor": {
+    "it": "Seleziona tutto il testo nell’editor",
+    "en": "Select all text in the editor"
+  },
+  "Commenta o decommenta la riga di codice": {
+    "it": "Commenta o decommenta la riga di codice",
+    "en": "Comment or uncomment the code line"
+  },
+  "Vai a una riga di codice": {
+    "it": "Vai a una riga di codice",
+    "en": "Go to a code line"
+  },
+  "Vai al carattere successivo": {
+    "it": "Vai al carattere successivo",
+    "en": "Go to the next character"
+  },
+  "Vai al carattere precedente": {
+    "it": "Vai al carattere precedente",
+    "en": "Go to the previous character"
+  },
+  "Vai alla parola successiva": {
+    "it": "Vai alla parola successiva",
+    "en": "Go to the next word"
+  },
+  "Vai alla parola precedente": {
+    "it": "Vai alla parola precedente",
+    "en": "Go to the previous word"
+  },
+  "Vai all’inizio della riga di codice": {
+    "it": "Vai all’inizio della riga di codice",
+    "en": "Go to the start of the code line"
+  },
+  "Vai alla fine della riga di codice": {
+    "it": "Vai alla fine della riga di codice",
+    "en": "Go to the end of the code line"
+  },
+  "Vai alla riga di codice successiva": {
+    "it": "Vai alla riga di codice successiva",
+    "en": "Go to the next code line"
+  },
+  "Vai alla riga di codice precedente": {
+    "it": "Vai alla riga di codice precedente",
+    "en": "Go to the previous code line"
+  },
+  "Vai all’inizio del file di codice": {
+    "it": "Vai all’inizio del file di codice",
+    "en": "Go to the start of the code file"
+  },
+  "Vai alla fine del file di codice": {
+    "it": "Vai alla fine del file di codice",
+    "en": "Go to the end of the code file"
+  },
+  "Seleziona il carattere successivo": {
+    "it": "Seleziona il carattere successivo",
+    "en": "Select the next character"
+  },
+  "Seleziona il carattere precedente": {
+    "it": "Seleziona il carattere precedente",
+    "en": "Select the previous character"
+  },
+  "Seleziona la parola successiva": {
+    "it": "Seleziona la parola successiva",
+    "en": "Select the next word"
+  },
+  "Seleziona la parola precedente": {
+    "it": "Seleziona la parola precedente",
+    "en": "Select the previous word"
+  },
+  "Seleziona fino all’inizio della riga di codice": {
+    "it": "Seleziona fino all’inizio della riga di codice",
+    "en": "Select to the start of the code line"
+  },
+  "Seleziona fino alla fine della riga di codice": {
+    "it": "Seleziona fino alla fine della riga di codice",
+    "en": "Select to the end of the code line"
+  },
+  "Estendi la selezione alla riga successiva": {
+    "it": "Estendi la selezione alla riga successiva",
+    "en": "Extend the selection to the next line"
+  },
+  "Estendi la selezione alla riga precedente": {
+    "it": "Estendi la selezione alla riga precedente",
+    "en": "Extend the selection to the previous line"
+  },
+  "Seleziona fino all’inizio del file di codice": {
+    "it": "Seleziona fino all’inizio del file di codice",
+    "en": "Select to the start of the code file"
+  },
+  "Seleziona fino alla fine del file di codice": {
+    "it": "Seleziona fino alla fine del file di codice",
+    "en": "Select to the end of the code file"
+  },
+  "Seleziona l’occorrenza successiva della selezione attuale": {
+    "it": "Seleziona l’occorrenza successiva della selezione attuale",
+    "en": "Select the next occurrence of the current selection"
+  },
+  "Modifica il numero di +1": {
+    "it": "Modifica il numero di +1",
+    "en": "Change the number by +1"
+  },
+  "Web Inspector attivo · Editor di testo · cursore su un numero": {
+    "it": "Web Inspector attivo · Editor di testo · cursore su un numero",
+    "en": "Active Web Inspector · Text editor · cursor on a number"
+  },
+  "Modifica il numero di -1": {
+    "it": "Modifica il numero di -1",
+    "en": "Change the number by -1"
+  },
+  "Modifica il numero di +10": {
+    "it": "Modifica il numero di +10",
+    "en": "Change the number by +10"
+  },
+  "Modifica il numero di -10": {
+    "it": "Modifica il numero di -10",
+    "en": "Change the number by -10"
+  },
+  "Regola un numero trascinando": {
+    "it": "Regola un numero trascinando",
+    "en": "Adjust a number by dragging"
+  },
+  "Web Inspector attivo · Editor di testo · puntatore su un numero": {
+    "it": "Web Inspector attivo · Editor di testo · puntatore su un numero",
+    "en": "Active Web Inspector · Text editor · pointer over a number"
+  },
+  "Opzione + trascina": {
+    "it": "Opzione + trascina",
+    "en": "Option + drag"
+  },
+  "Salva la risorsa visualizzata": {
+    "it": "Salva la risorsa visualizzata",
+    "en": "Save the displayed resource"
+  },
+  "Web Inspector attivo · Browser dei contenuti": {
+    "it": "Web Inspector attivo · Browser dei contenuti",
+    "en": "Active Web Inspector · Content browser"
+  },
+  "Browser dei contenuti": {
+    "it": "Browser dei contenuti",
+    "en": "Content browser"
+  },
+  "Salva la risorsa visualizzata con un altro nome": {
+    "it": "Salva la risorsa visualizzata con un altro nome",
+    "en": "Save the displayed resource as"
+  },
+  "Mostra o nascondi la barra laterale di navigazione": {
+    "it": "Mostra o nascondi la barra laterale di navigazione",
+    "en": "Show or hide the navigation sidebar"
+  },
+  "Mostra o nascondi la barra laterale dei dettagli": {
+    "it": "Mostra o nascondi la barra laterale dei dettagli",
+    "en": "Show or hide the details sidebar"
+  },
+  "Torna alla risorsa precedente": {
+    "it": "Torna alla risorsa precedente",
+    "en": "Go back to the previous resource"
+  },
+  "Web Inspector attivo · Browser dei contenuti · Scrittura da sinistra a destra": {
+    "it": "Web Inspector attivo · Browser dei contenuti · Scrittura da sinistra a destra",
+    "en": "Active Web Inspector · Content browser · Left-to-right writing direction"
+  },
+  "Vai alla risorsa successiva": {
+    "it": "Vai alla risorsa successiva",
+    "en": "Go forward to the next resource"
+  },
+  "Web Inspector attivo · Browser dei contenuti · Scrittura da destra a sinistra": {
+    "it": "Web Inspector attivo · Browser dei contenuti · Scrittura da destra a sinistra",
+    "en": "Active Web Inspector · Content browser · Right-to-left writing direction"
+  },
+  "Porta il focus al prompt della console": {
+    "it": "Porta il focus al prompt della console",
+    "en": "Focus the console prompt"
+  },
+  "Web Inspector attivo · Prompt della console": {
+    "it": "Web Inspector attivo · Prompt della console",
+    "en": "Active Web Inspector · Console prompt"
+  },
+  "Console rapida": {
+    "it": "Console rapida",
+    "en": "Quick Console"
+  },
+  "Espandi o comprimi la console rapida": {
+    "it": "Espandi o comprimi la console rapida",
+    "en": "Expand or collapse Quick Console"
+  },
+  "Web Inspector attivo · Scheda che supporta la console divisa": {
+    "it": "Web Inspector attivo · Scheda che supporta la console divisa",
+    "en": "Active Web Inspector · Tab supporting the Split Console"
+  },
+  "Svuota il registro della console": {
+    "it": "Svuota il registro della console",
+    "en": "Clear the console log"
+  },
+  "Web Inspector attivo · Registro della console": {
+    "it": "Web Inspector attivo · Registro della console",
+    "en": "Active Web Inspector · Console message log"
+  },
+  "Seleziona tutti i messaggi della console": {
+    "it": "Seleziona tutti i messaggi della console",
+    "en": "Select all console messages"
+  },
+  "Web Inspector attivo · Messaggi della console": {
+    "it": "Web Inspector attivo · Messaggi della console",
+    "en": "Active Web Inspector · Console messages"
+  },
+  "Annulla la selezione dei messaggi": {
+    "it": "Annulla la selezione dei messaggi",
+    "en": "Clear the message selection"
+  },
+  "Web Inspector attivo · Messaggi della console selezionati": {
+    "it": "Web Inspector attivo · Messaggi della console selezionati",
+    "en": "Active Web Inspector · Selected console messages"
+  },
+  "Apri la scheda 1 di Web Inspector": {
+    "it": "Apri la scheda 1 di Web Inspector",
+    "en": "Open Web Inspector tab 1"
+  },
+  "Web Inspector attivo · Navigazione tra le schede": {
+    "it": "Web Inspector attivo · Navigazione tra le schede",
+    "en": "Active Web Inspector · Tab navigation"
+  },
+  "Schede di Web Inspector": {
+    "it": "Schede di Web Inspector",
+    "en": "Web Inspector tabs"
+  },
+  "Apri la scheda 2 di Web Inspector": {
+    "it": "Apri la scheda 2 di Web Inspector",
+    "en": "Open Web Inspector tab 2"
+  },
+  "Apri la scheda 3 di Web Inspector": {
+    "it": "Apri la scheda 3 di Web Inspector",
+    "en": "Open Web Inspector tab 3"
+  },
+  "Apri la scheda 4 di Web Inspector": {
+    "it": "Apri la scheda 4 di Web Inspector",
+    "en": "Open Web Inspector tab 4"
+  },
+  "Apri la scheda 5 di Web Inspector": {
+    "it": "Apri la scheda 5 di Web Inspector",
+    "en": "Open Web Inspector tab 5"
+  },
+  "Apri la scheda 6 di Web Inspector": {
+    "it": "Apri la scheda 6 di Web Inspector",
+    "en": "Open Web Inspector tab 6"
+  },
+  "Apri la scheda 7 di Web Inspector": {
+    "it": "Apri la scheda 7 di Web Inspector",
+    "en": "Open Web Inspector tab 7"
+  },
+  "Apri la scheda 8 di Web Inspector": {
+    "it": "Apri la scheda 8 di Web Inspector",
+    "en": "Open Web Inspector tab 8"
+  },
+  "Apri la scheda 9 di Web Inspector": {
+    "it": "Apri la scheda 9 di Web Inspector",
+    "en": "Open Web Inspector tab 9"
+  },
+  "Mostra la scheda successiva di Web Inspector": {
+    "it": "Mostra la scheda successiva di Web Inspector",
+    "en": "Show the next Web Inspector tab"
+  },
+  "Web Inspector attivo · Scrittura da sinistra a destra": {
+    "it": "Web Inspector attivo · Scrittura da sinistra a destra",
+    "en": "Active Web Inspector · Left-to-right writing direction"
+  },
+  "Mostra la scheda precedente di Web Inspector": {
+    "it": "Mostra la scheda precedente di Web Inspector",
+    "en": "Show the previous Web Inspector tab"
+  },
+  "Web Inspector attivo · Scrittura da destra a sinistra": {
+    "it": "Web Inspector attivo · Scrittura da destra a sinistra",
+    "en": "Active Web Inspector · Right-to-left writing direction"
+  },
+  "Attiva o disattiva la selezione degli elementi DOM": {
+    "it": "Attiva o disattiva la selezione degli elementi DOM",
+    "en": "Toggle DOM element selection"
+  },
+  "Web Inspector attivo · Scheda Elementi · Struttura DOM": {
+    "it": "Web Inspector attivo · Scheda Elementi · Struttura DOM",
+    "en": "Active Web Inspector · Elements tab · DOM tree"
+  },
+  "Elementi e CSS": {
+    "it": "Elementi e CSS",
+    "en": "Elements and CSS"
+  },
+  "Copia il nodo DOM": {
+    "it": "Copia il nodo DOM",
+    "en": "Copy the DOM node"
+  },
+  "Web Inspector attivo · Scheda Elementi · Struttura DOM · un nodo selezionato": {
+    "it": "Web Inspector attivo · Scheda Elementi · Struttura DOM · un nodo selezionato",
+    "en": "Active Web Inspector · Elements tab · DOM tree · one selected node"
+  },
+  "Incolla il nodo DOM": {
+    "it": "Incolla il nodo DOM",
+    "en": "Paste the DOM node"
+  },
+  "Nascondi gli elementi DOM selezionati": {
+    "it": "Nascondi gli elementi DOM selezionati",
+    "en": "Hide the selected DOM elements"
+  },
+  "Web Inspector attivo · Scheda Elementi · Struttura DOM · uno o più nodi selezionati": {
+    "it": "Web Inspector attivo · Scheda Elementi · Struttura DOM · uno o più nodi selezionati",
+    "en": "Active Web Inspector · Elements tab · DOM tree · one or more selected nodes"
+  },
+  "Rimuovi gli elementi DOM selezionati": {
+    "it": "Rimuovi gli elementi DOM selezionati",
+    "en": "Remove the selected DOM elements"
+  },
+  "Salva gli stili CSS": {
+    "it": "Salva gli stili CSS",
+    "en": "Save CSS styles"
+  },
+  "Web Inspector attivo · Scheda Elementi · Pannello Stili": {
+    "it": "Web Inspector attivo · Scheda Elementi · Pannello Stili",
+    "en": "Active Web Inspector · Elements tab · Styles panel"
+  },
+  "Salva gli stili CSS con un altro nome": {
+    "it": "Salva gli stili CSS con un altro nome",
+    "en": "Save CSS styles as"
+  },
+  "Commenta o decommenta la dichiarazione CSS": {
+    "it": "Commenta o decommenta la dichiarazione CSS",
+    "en": "Comment or uncomment the CSS declaration"
+  },
+  "Mostra o nascondi i completamenti CSS": {
+    "it": "Mostra o nascondi i completamenti CSS",
+    "en": "Show or hide CSS completions"
+  },
+  "Mostra la dichiarazione CSS nelle sorgenti": {
+    "it": "Mostra la dichiarazione CSS nelle sorgenti",
+    "en": "Show the CSS declaration in Sources"
+  },
+  "Web Inspector attivo · Scheda Elementi · pannello Stili": {
+    "it": "Web Inspector attivo · Scheda Elementi · pannello Stili",
+    "en": "Active Web Inspector · Elements tab · Styles panel"
+  },
+  "Comando + clic": {
+    "it": "Comando + clic",
+    "en": "Command + click"
+  },
+  "Modifica il numero CSS di +1": {
+    "it": "Modifica il numero CSS di +1",
+    "en": "Change the CSS number by +1"
+  },
+  "Web Inspector attivo · Pannello Stili · cursore su un numero": {
+    "it": "Web Inspector attivo · Pannello Stili · cursore su un numero",
+    "en": "Active Web Inspector · Styles panel · cursor on a number"
+  },
+  "Modifica il numero CSS di -1": {
+    "it": "Modifica il numero CSS di -1",
+    "en": "Change the CSS number by -1"
+  },
+  "Modifica il numero CSS di +0.1": {
+    "it": "Modifica il numero CSS di +0.1",
+    "en": "Change the CSS number by +0.1"
+  },
+  "Modifica il numero CSS di -0.1": {
+    "it": "Modifica il numero CSS di -0.1",
+    "en": "Change the CSS number by -0.1"
+  },
+  "Modifica il numero CSS di +10": {
+    "it": "Modifica il numero CSS di +10",
+    "en": "Change the CSS number by +10"
+  },
+  "Modifica il numero CSS di -10": {
+    "it": "Modifica il numero CSS di -10",
+    "en": "Change the CSS number by -10"
+  },
+  "Modifica il numero CSS di +100": {
+    "it": "Modifica il numero CSS di +100",
+    "en": "Change the CSS number by +100"
+  },
+  "Modifica il numero CSS di -100": {
+    "it": "Modifica il numero CSS di -100",
+    "en": "Change the CSS number by -100"
+  },
+  "Mostra la scheda Sorgenti": {
+    "it": "Mostra la scheda Sorgenti",
+    "en": "Show the Sources tab"
+  },
+  "Web Inspector attivo · Scheda Sorgenti · Navigazione nelle sorgenti": {
+    "it": "Web Inspector attivo · Scheda Sorgenti · Navigazione nelle sorgenti",
+    "en": "Active Web Inspector · Sources tab · Source navigation"
+  },
+  "Sorgenti e debugger": {
+    "it": "Sorgenti e debugger",
+    "en": "Sources and debugger"
+  },
+  "Mostra il sorgente della pagina ispezionata": {
+    "it": "Mostra il sorgente della pagina ispezionata",
+    "en": "Show the inspected page source"
+  },
+  "Attiva o disattiva i punti di interruzione": {
+    "it": "Attiva o disattiva i punti di interruzione",
+    "en": "Enable or disable breakpoints"
+  },
+  "Web Inspector attivo · Scheda Sorgenti · Debugger": {
+    "it": "Web Inspector attivo · Scheda Sorgenti · Debugger",
+    "en": "Active Web Inspector · Sources tab · Debugger"
+  },
+  "Metti in pausa o riprendi il debugger": {
+    "it": "Metti in pausa o riprendi il debugger",
+    "en": "Pause or resume the debugger"
+  },
+  "Esegui la prossima istruzione senza entrare nelle funzioni": {
+    "it": "Esegui la prossima istruzione senza entrare nelle funzioni",
+    "en": "Step over the next instruction"
+  },
+  "Web Inspector attivo · Scheda Sorgenti · Debugger in pausa": {
+    "it": "Web Inspector attivo · Scheda Sorgenti · Debugger in pausa",
+    "en": "Active Web Inspector · Sources tab · Paused debugger"
+  },
+  "Esegui la prossima istruzione entrando nelle funzioni": {
+    "it": "Esegui la prossima istruzione entrando nelle funzioni",
+    "en": "Step into the next instruction"
+  },
+  "Completa la funzione corrente ed esci": {
+    "it": "Completa la funzione corrente ed esci",
+    "en": "Step out of the current function"
+  },
+  "Esegui un singolo passo del debugger": {
+    "it": "Esegui un singolo passo del debugger",
+    "en": "Take a single debugger step"
+  },
+  "Esegui lo snippet della console selezionato": {
+    "it": "Esegui lo snippet della console selezionato",
+    "en": "Run the selected console snippet"
+  },
+  "Web Inspector attivo · Scheda Sorgenti · Snippet della console selezionato": {
+    "it": "Web Inspector attivo · Scheda Sorgenti · Snippet della console selezionato",
+    "en": "Active Web Inspector · Sources tab · Selected console snippet"
+  },
+  "Avvia o interrompi la registrazione nella timeline": {
+    "it": "Avvia o interrompi la registrazione nella timeline",
+    "en": "Start or stop recording in Timelines"
+  },
+  "Web Inspector attivo · Scheda Timeline": {
+    "it": "Web Inspector attivo · Scheda Timeline",
+    "en": "Active Web Inspector · Timelines tab"
+  },
+  "Timeline": {
+    "it": "Timeline",
+    "en": "Timelines"
+  },
+  "Avvia una nuova registrazione della timeline": {
+    "it": "Avvia una nuova registrazione della timeline",
+    "en": "Start a new timeline recording"
+  },
+  "Cancella la registrazione attiva della timeline": {
+    "it": "Cancella la registrazione attiva della timeline",
+    "en": "Clear the active timeline recording"
+  },
+  "Web Inspector attivo · Scheda Timeline · registrazione attiva": {
+    "it": "Web Inspector attivo · Scheda Timeline · registrazione attiva",
+    "en": "Active Web Inspector · Timelines tab · active recording"
+  },
+  "Avvia o interrompi la registrazione del canvas": {
+    "it": "Avvia o interrompi la registrazione del canvas",
+    "en": "Start or stop canvas recording"
+  },
+  "Web Inspector attivo · Scheda Grafica · canvas selezionato": {
+    "it": "Web Inspector attivo · Scheda Grafica · canvas selezionato",
+    "en": "Active Web Inspector · Graphics tab · selected canvas"
+  },
+  "Grafica": {
+    "it": "Grafica",
+    "en": "Graphics"
+  },
+  "Registra un singolo fotogramma del canvas": {
+    "it": "Registra un singolo fotogramma del canvas",
+    "en": "Record a single canvas frame"
+  },
+  "Avvia o interrompi l’audit selezionato": {
+    "it": "Avvia o interrompi l’audit selezionato",
+    "en": "Start or stop the selected audit"
+  },
+  "Web Inspector attivo · Scheda Audit · audit selezionato": {
+    "it": "Web Inspector attivo · Scheda Audit · audit selezionato",
+    "en": "Active Web Inspector · Audit tab · selected audit"
+  },
+  "Audit": {
+    "it": "Audit",
+    "en": "Audit"
+  },
+  "Apri la scheda Console": {
+    "it": "Apri la scheda Console",
+    "en": "Open the Console tab"
+  },
+  "Console": {
+    "it": "Console",
+    "en": "Console"
+  },
+  "Apri le impostazioni di Web Inspector": {
+    "it": "Apri le impostazioni di Web Inspector",
+    "en": "Open Web Inspector settings"
+  },
+  "Impostazioni di Web Inspector": {
+    "it": "Impostazioni di Web Inspector",
+    "en": "Web Inspector settings"
+  },
+  "menu Sviluppo attivo": {
+    "it": "menu Sviluppo attivo",
+    "en": "Develop menu enabled"
+  },
+  "Web Inspector attivo": {
+    "it": "Web Inspector attivo",
+    "en": "Active Web Inspector"
+  },
+  "Finestra di Web Inspector": {
+    "it": "Finestra di Web Inspector",
+    "en": "Web Inspector window"
+  },
+  "Contenuto ricercabile": {
+    "it": "Contenuto ricercabile",
+    "en": "Searchable content"
+  },
+  "Testo selezionato": {
+    "it": "Testo selezionato",
+    "en": "Selected text"
+  },
+  "Barra di ricerca attiva": {
+    "it": "Barra di ricerca attiva",
+    "en": "Focused find bar"
+  },
+  "Ricerca": {
+    "it": "Ricerca",
+    "en": "Find"
+  },
+  "scrittura da sinistra a destra o da destra a sinistra": {
+    "it": "scrittura da sinistra a destra o da destra a sinistra",
+    "en": "left-to-right or right-to-left writing direction"
+  },
+  "Ricerca nelle risorse": {
+    "it": "Ricerca nelle risorse",
+    "en": "Resource search"
+  },
+  "Struttura ad albero": {
+    "it": "Struttura ad albero",
+    "en": "Tree outline"
+  },
+  "Nodo selezionato": {
+    "it": "Nodo selezionato",
+    "en": "Selected node"
+  },
+  "Nodo selezionato espanso": {
+    "it": "Nodo selezionato espanso",
+    "en": "Expanded selected node"
+  },
+  "Nodo selezionato compresso": {
+    "it": "Nodo selezionato compresso",
+    "en": "Collapsed selected node"
+  },
+  "Nodo disattivabile selezionato": {
+    "it": "Nodo disattivabile selezionato",
+    "en": "Selected node supports disabling"
+  },
+  "Nodo modificabile selezionato": {
+    "it": "Nodo modificabile selezionato",
+    "en": "Selected node supports editing"
+  },
+  "Nodo rimovibile selezionato": {
+    "it": "Nodo rimovibile selezionato",
+    "en": "Selected node supports removal"
+  },
+  "Editor di testo attivo": {
+    "it": "Editor di testo attivo",
+    "en": "Focused text editor"
+  },
+  "Editor di testo": {
+    "it": "Editor di testo",
+    "en": "Text editor"
+  },
+  "cursore su un numero": {
+    "it": "cursore su un numero",
+    "en": "cursor on a number"
+  },
+  "Scrittura da sinistra a destra": {
+    "it": "Scrittura da sinistra a destra",
+    "en": "Left-to-right writing direction"
+  },
+  "Scrittura da destra a sinistra": {
+    "it": "Scrittura da destra a sinistra",
+    "en": "Right-to-left writing direction"
+  },
+  "Prompt della console": {
+    "it": "Prompt della console",
+    "en": "Console prompt"
+  },
+  "Scheda che supporta la console divisa": {
+    "it": "Scheda che supporta la console divisa",
+    "en": "Tab supporting the Split Console"
+  },
+  "Registro della console": {
+    "it": "Registro della console",
+    "en": "Console message log"
+  },
+  "Messaggi della console": {
+    "it": "Messaggi della console",
+    "en": "Console messages"
+  },
+  "Messaggi della console selezionati": {
+    "it": "Messaggi della console selezionati",
+    "en": "Selected console messages"
+  },
+  "Navigazione tra le schede": {
+    "it": "Navigazione tra le schede",
+    "en": "Tab navigation"
+  },
+  "Scheda Elementi": {
+    "it": "Scheda Elementi",
+    "en": "Elements tab"
+  },
+  "Struttura DOM": {
+    "it": "Struttura DOM",
+    "en": "DOM tree"
+  },
+  "un nodo selezionato": {
+    "it": "un nodo selezionato",
+    "en": "one selected node"
+  },
+  "uno o più nodi selezionati": {
+    "it": "uno o più nodi selezionati",
+    "en": "one or more selected nodes"
+  },
+  "Pannello Stili": {
+    "it": "Pannello Stili",
+    "en": "Styles panel"
+  },
+  "Scheda Sorgenti": {
+    "it": "Scheda Sorgenti",
+    "en": "Sources tab"
+  },
+  "Navigazione nelle sorgenti": {
+    "it": "Navigazione nelle sorgenti",
+    "en": "Source navigation"
+  },
+  "Debugger": {
+    "it": "Debugger",
+    "en": "Debugger"
+  },
+  "Debugger in pausa": {
+    "it": "Debugger in pausa",
+    "en": "Paused debugger"
+  },
+  "Snippet della console selezionato": {
+    "it": "Snippet della console selezionato",
+    "en": "Selected console snippet"
+  },
+  "Scheda Timeline": {
+    "it": "Scheda Timeline",
+    "en": "Timelines tab"
+  },
+  "registrazione attiva": {
+    "it": "registrazione attiva",
+    "en": "active recording"
+  },
+  "Scheda Grafica": {
+    "it": "Scheda Grafica",
+    "en": "Graphics tab"
+  },
+  "canvas selezionato": {
+    "it": "canvas selezionato",
+    "en": "selected canvas"
+  },
+  "Scheda Audit": {
+    "it": "Scheda Audit",
+    "en": "Audit tab"
+  },
+  "audit selezionato": {
+    "it": "audit selezionato",
+    "en": "selected audit"
+  }
+}

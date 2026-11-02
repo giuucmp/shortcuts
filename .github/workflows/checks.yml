@@ -1,0 +1,29 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  macos:
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Core behavior and localization
+        run: ./scripts/check.sh
+      - name: Catalog parsers
+        run: |
+          python3 scripts/test_key_parser.py
+          python3 scripts/test_category_classifier.py
+      - name: Build universal app
+        run: UNIVERSAL=1 ./scripts/build-app.sh
+      - name: Verify architectures and signature
+        run: |
+          python3 -c 'import subprocess; assert set(subprocess.check_output(["lipo", "-archs", "dist/Scorciatoie.app/Contents/MacOS/Scorciatoie"], text=True).split()) == {"arm64", "x86_64"}'
+          codesign --verify --deep --strict dist/Scorciatoie.app
+      - name: Check generated website
+        run: |
+          python3 site/build.py
+          git diff --exit-code -- site/index.html site/it/index.html

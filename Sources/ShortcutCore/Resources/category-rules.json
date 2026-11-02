@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Ricerca",
+    "symbol": "magnifyingglass",
+    "pattern": "\\b(find|search|ricerc\\w*|cerc\\w*|trov\\w*|command palette|command menu|show commands|tavolozza|menu dei comandi)\\b"
+  },
+  {
+    "name": "Sistema",
+    "symbol": "gearshape",
+    "pattern": "\\b(settings|preferences|keyboard shortcuts|impostazioni|preferenze|scorciatoie da tastiera|quit|exit the app|lock screen|blocca lo schermo|chiusura forzata)\\b"
+  },
+  {
+    "name": "Formattazione",
+    "symbol": "textformat",
+    "pattern": "\\b(format\\w*|font|bold|italic|underline|paragraph|grassetto|corsivo|sottoline\\w*|paragraf\\w*|align\\w*|allinea\\w*|indent\\w*|style|stile|stili|borders?|strikethrough)\\b"
+  },
+  {
+    "name": "Scrittura e modifica",
+    "symbol": "pencil",
+    "pattern": "\\b(copy|copi\\w*|paste|incoll\\w*|cut|tagli\\w*|undo|redo|annull\\w*|ripristin\\w*|delete|elimina\\w*|cancel\\w*|insert|inserisci|edit|modifica|replace|sostitui\\w*|comment|commenta\\w*)\\b"
+  },
+  {
+    "name": "Terminale e debug",
+    "symbol": "terminal",
+    "pattern": "\\b(terminal\\w*|debug\\w*|breakpoint|build|compile|compila\\w*|run|execute|esegui\\w*|step over|step into|step out)\\b"
+  },
+  {
+    "name": "Tabelle e celle",
+    "symbol": "tablecells",
+    "pattern": "\\b(cell\\w*|cella|celle|formula\\w*|spreadsheet|foglio|table|tabella|tabelle|column|colonna|colonne|row|pivot|autosum|calculate|calcola\\w*|fill down|fill to the right)\\b"
+  },
+  {
+    "name": "Chat e messaggi",
+    "symbol": "bubble.left.and.bubble.right",
+    "pattern": "\\b(chat|conversation|conversazion\\w*|prompt|message|messagg\\w*|response|risposta|submit|send|invia|queue|accoda\\w*|approval|approve|approv\\w*|decline)\\b"
+  },
+  {
+    "name": "Finestre e schede",
+    "symbol": "rectangle.on.rectangle",
+    "pattern": "\\b(window\\w*|finestr\\w*|tabs?|scheda|schede|pannell\\w*|panes?|split|full screen|fullscreen|schermo intero)\\b"
+  },
+  {
+    "name": "File",
+    "symbol": "folder",
+    "pattern": "\\b(file\\w*|document\\w*|save|salva\\w*|print|stamp\\w*|folder\\w*|cartell\\w*|export|esporta\\w*|import|importa\\w*|project|progett\\w*|workbooks?|open dialog box)\\b"
+  },
+  {
+    "name": "Selezione",
+    "symbol": "selection.pin.in.out",
+    "pattern": "\\b(select\\w*|selezion\\w*|highlight|evidenzia\\w*)\\b"
+  },
+  {
+    "name": "Navigazione",
+    "symbol": "arrow.up.arrow.down",
+    "pattern": "\\b(move|next|previous|go to|sposta\\w*|successiv\\w*|precedent\\w*|vai|scroll|scorr\\w*|navigate|naviga\\w*|beginning|end of|inizio|fine|back|forward|indietro|avanti|history|cronologia|reload|ricarica\\w*)\\b"
+  },
+  {
+    "name": "Riproduzione",
+    "symbol": "playpause",
+    "pattern": "\\b(play|pause|volume|riprodu\\w*|pausa|audio|video|track|traccia|frame|fotogramm\\w*)\\b"
+  },
+  {
+    "name": "Vista",
+    "symbol": "eye",
+    "pattern": "\\b(view|show|hide|toggle|vista|visualizza\\w*|mostra\\w*|nascond\\w*|zoom|sidebar|barra laterale|layout|inspector|anteprima|quick look|ribbon)\\b"
+  }
+]

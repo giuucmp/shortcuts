@@ -1,0 +1,38 @@
+{
+  "Cercare": {
+    "it": "Cercare",
+    "en": "Search"
+  },
+  "Screenshot negli appunti: schermo intero": {
+    "it": "Screenshot negli appunti: schermo intero",
+    "en": "Copy full-screen screenshot to clipboard"
+  },
+  "Ripristina: %@": {
+    "it": "Ripristina: %@",
+    "en": "Restore: %@"
+  },
+  "Nascondi: %@": {
+    "it": "Nascondi: %@",
+    "en": "Hide: %@"
+  },
+  "Usa questo profilo mentre lavori in Web Inspector. Ripristina il riconoscimento automatico per tornare ai comandi di Safari.": {
+    "it": "Usa questo profilo mentre lavori in Web Inspector. Ripristina il riconoscimento automatico per tornare ai comandi di Safari.",
+    "en": "Use this profile while working in Web Inspector. Restore automatic detection to return to Safari commands."
+  },
+  "Comandi": {
+    "it": "Comandi",
+    "en": "Shortcuts"
+  },
+  "Assegnazione dichiarata dall’estensione %@; attivazione e condizione non verificabili da qui.": {
+    "it": "Assegnazione dichiarata dall’estensione %@; attivazione e condizione non verificabili da qui.",
+    "en": "Binding declared by extension %@; activation and conditions cannot be verified here."
+  },
+  "Conflitto con una personalizzazione: disattivata quando %@. La condizione del catalogo non è nota.": {
+    "it": "Conflitto con una personalizzazione: disattivata quando %@. La condizione del catalogo non è nota.",
+    "en": "Conflicts with a custom binding: disabled when %@. The catalog condition is unknown."
+  },
+  "Conflitto con una personalizzazione condizionale: %@. Verifica nell’editor.": {
+    "it": "Conflitto con una personalizzazione condizionale: %@. Verifica nell’editor.",
+    "en": "Conflicts with a conditional custom binding: %@. Check in the editor."
+  }
+}

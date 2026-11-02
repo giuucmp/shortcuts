@@ -1,0 +1,1120 @@
+[
+  {
+    "id": "apple-activity-monitor",
+    "name": "Activity Monitor",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-airport-utility",
+    "name": "AirPort Utility",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "preview",
+    "name": "Anteprima",
+    "records": 33,
+    "parsed": 26,
+    "unparsed": 7,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/preview/cpprvw0003/mac"
+    ]
+  },
+  {
+    "id": "app-store",
+    "name": "App Store",
+    "records": 11,
+    "parsed": 11,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/app-store/fir513b7cb81/mac"
+    ]
+  },
+  {
+    "id": "apple-apps",
+    "name": "Apps",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-audio-midi-setup",
+    "name": "Audio MIDI Setup",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-automator",
+    "name": "Automator",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-bluetooth-file-exchange",
+    "name": "Bluetooth File Exchange",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-books",
+    "name": "Books",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-calculator",
+    "name": "Calculator",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "calendar",
+    "name": "Calendario",
+    "records": 39,
+    "parsed": 35,
+    "unparsed": 4,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/calendar/ical002/mac"
+    ]
+  },
+  {
+    "id": "apple-chess",
+    "name": "Chess",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code · terminale",
+    "records": 154,
+    "parsed": 145,
+    "unparsed": 9,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://code.claude.com/docs/en/keybindings"
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Claude · app desktop",
+    "records": 59,
+    "parsed": 59,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Comandi comuni e sezione Code dell’app desktop. I comandi CLI hanno un profilo separato. Se la sezione attiva non è esposta, i comandi Code restano indicati come condizionali. Copertura non certificata.",
+    "sources": [
+      "https://code.claude.com/docs/en/desktop#keyboard-shortcuts"
+    ]
+  },
+  {
+    "id": "apple-clock",
+    "name": "Clock",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "codex",
+    "name": "Codex / ChatGPT",
+    "records": 80,
+    "parsed": 71,
+    "unparsed": 9,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://learn.chatgpt.com/docs/reference/commands"
+    ]
+  },
+  {
+    "id": "codex-cli",
+    "name": "Codex · terminale",
+    "records": 5,
+    "parsed": 5,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://learn.chatgpt.com/docs/developer-commands"
+    ]
+  },
+  {
+    "id": "apple-colorsync-utility",
+    "name": "ColorSync Utility",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-console",
+    "name": "Console",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "contacts",
+    "name": "Contatti",
+    "records": 18,
+    "parsed": 18,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/contacts/adrb3a846770/mac"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "records": 42,
+    "parsed": 38,
+    "unparsed": 4,
+    "parent": "vscode",
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://cursor.com/docs/reference/keyboard-shortcuts"
+    ]
+  },
+  {
+    "id": "apple-dictionary",
+    "name": "Dictionary",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-digital-color-meter",
+    "name": "Digital Color Meter",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "find-my",
+    "name": "Dov’è",
+    "records": 16,
+    "parsed": 12,
+    "unparsed": 4,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/findmy-mac/fmmc26394c9b/mac"
+    ]
+  },
+  {
+    "id": "apple-facetime",
+    "name": "FaceTime",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "finder",
+    "name": "Finder",
+    "records": 29,
+    "parsed": 29,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/en-us/102650"
+    ]
+  },
+  {
+    "id": "firefox",
+    "name": "Firefox",
+    "records": 7,
+    "parsed": 7,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo di base limitato: il riferimento ufficiale ha richiesto una verifica browser. Lettura dei menu disponibile; verifica completa ancora da svolgere.",
+    "sources": [
+      "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+    ]
+  },
+  {
+    "id": "apple-font-book",
+    "name": "Font Book",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "photos",
+    "name": "Foto",
+    "records": 67,
+    "parsed": 46,
+    "unparsed": 21,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/photos/pht9b4411b24/mac"
+    ]
+  },
+  {
+    "id": "apple-freeform",
+    "name": "Freeform",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-games",
+    "name": "Games",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-grapher",
+    "name": "Grapher",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "grok",
+    "name": "Grok Bot",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-home",
+    "name": "Home",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-image-capture",
+    "name": "Image Capture",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-image-playground",
+    "name": "Image Playground",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-journal",
+    "name": "Journal",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "keynote",
+    "name": "Keynote",
+    "records": 345,
+    "parsed": 237,
+    "unparsed": 108,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/keynote/tanfde4a3e6d/mac"
+    ]
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "records": 119,
+    "parsed": 80,
+    "unparsed": 39,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://help.libreoffice.org/latest/en-US/text/swriter/04/01020000.html"
+    ]
+  },
+  {
+    "id": "apple-magnifier",
+    "name": "Magnifier",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "mail",
+    "name": "Mail",
+    "records": 27,
+    "parsed": 27,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/mail/mlhlb94f262b/mac"
+    ]
+  },
+  {
+    "id": "maps",
+    "name": "Mappe",
+    "records": 16,
+    "parsed": 13,
+    "unparsed": 3,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/maps/mps36380d1ed/mac"
+    ]
+  },
+  {
+    "id": "voice-memos",
+    "name": "Memo Vocali",
+    "records": 20,
+    "parsed": 18,
+    "unparsed": 2,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/voice-memos/vm5b49792b0d/mac"
+    ]
+  },
+  {
+    "id": "messages",
+    "name": "Messaggi",
+    "records": 40,
+    "parsed": 36,
+    "unparsed": 4,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/messages/ichtc78b3bff/mac"
+    ]
+  },
+  {
+    "id": "edge",
+    "name": "Microsoft Edge",
+    "records": 67,
+    "parsed": 66,
+    "unparsed": 1,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+    ]
+  },
+  {
+    "id": "excel",
+    "name": "Microsoft Excel",
+    "records": 307,
+    "parsed": 281,
+    "unparsed": 26,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+    ]
+  },
+  {
+    "id": "onenote",
+    "name": "Microsoft OneNote",
+    "records": 88,
+    "parsed": 79,
+    "unparsed": 9,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.microsoft.com/en-us/accessibility/onenote/keyboard-shortcuts-in-onenote"
+    ]
+  },
+  {
+    "id": "outlook",
+    "name": "Microsoft Outlook",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "powerpoint",
+    "name": "Microsoft PowerPoint",
+    "records": 140,
+    "parsed": 132,
+    "unparsed": 8,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+    ]
+  },
+  {
+    "id": "teams",
+    "name": "Microsoft Teams",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "word",
+    "name": "Microsoft Word",
+    "records": 191,
+    "parsed": 147,
+    "unparsed": 44,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+    ]
+  },
+  {
+    "id": "apple-migration-assistant",
+    "name": "Migration Assistant",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-mission-control",
+    "name": "Mission Control",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "music",
+    "name": "Musica",
+    "records": 58,
+    "parsed": 47,
+    "unparsed": 11,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/music/mus1019/mac"
+    ]
+  },
+  {
+    "id": "news",
+    "name": "News",
+    "records": 32,
+    "parsed": 30,
+    "unparsed": 2,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/news/iphc13bdbe67/mac"
+    ]
+  },
+  {
+    "id": "notes",
+    "name": "Note",
+    "records": 61,
+    "parsed": 50,
+    "unparsed": 11,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/notes/apd46c25187e/mac"
+    ]
+  },
+  {
+    "id": "numbers",
+    "name": "Numbers",
+    "records": 295,
+    "parsed": 200,
+    "unparsed": 95,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/numbers/tana45192591/mac"
+    ]
+  },
+  {
+    "id": "pages",
+    "name": "Pages",
+    "records": 290,
+    "parsed": 196,
+    "unparsed": 94,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/pages/tanc0ffef022/mac"
+    ]
+  },
+  {
+    "id": "apple-passwords",
+    "name": "Passwords",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-phone",
+    "name": "Phone",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-photo-booth",
+    "name": "Photo Booth",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "podcasts",
+    "name": "Podcast",
+    "records": 17,
+    "parsed": 16,
+    "unparsed": 1,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/podcasts/podcd31cff4/mac"
+    ]
+  },
+  {
+    "id": "apple-print-center",
+    "name": "Print Center",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "reminders",
+    "name": "Promemoria",
+    "records": 23,
+    "parsed": 22,
+    "unparsed": 1,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/reminders/remn19b3424c/mac"
+    ]
+  },
+  {
+    "id": "quicktime",
+    "name": "QuickTime Player",
+    "records": 48,
+    "parsed": 46,
+    "unparsed": 2,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/quicktime-player/qtpa4808515d/mac"
+    ]
+  },
+  {
+    "id": "safari",
+    "name": "Safari",
+    "records": 87,
+    "parsed": 49,
+    "unparsed": 38,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo Safari con menu Sviluppo. Le scorciatoie di sviluppo richiedono le funzionalità per sviluppatori web; i comandi interni di Web Inspector hanno un profilo separato. Combinazioni da fonti Apple/WebKit, senza verifica del menu attuale.",
+    "sources": [
+      "https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "https://developer.apple.com/tutorials/images/com.apple.safari.developer-tools/DevelopMenu@2x.png",
+      "https://support.apple.com/guide/safari/use-the-developer-tools-in-the-develop-menu-sfri20948/mac",
+      "https://support.apple.com/it-it/guide/safari/cpsh003/mac",
+      "https://webkit.org/blog/14670/simplified-responsive-design-mode/",
+      "https://webkit.org/web-inspector/enabling-web-inspector/",
+      "https://webkit.org/web-inspector/keyboard-shortcuts/"
+    ]
+  },
+  {
+    "id": "safari-inspector",
+    "name": "Safari · Web Inspector",
+    "records": 149,
+    "parsed": 147,
+    "unparsed": 2,
+    "parent": "safari",
+    "liveVerified": false,
+    "note": "Comandi interni di Web Inspector, separati dalla navigazione nelle pagine. Include le combinazioni della guida WebKit per STP 156 e i gesti documentati, con contesti espliciti. La disponibilità effettiva va verificata nella versione in uso.",
+    "sources": [
+      "https://developer.apple.com/documentation/safari-developer-tools/develop-menu",
+      "https://webkit.org/web-inspector/enabling-web-inspector/",
+      "https://webkit.org/web-inspector/keyboard-shortcuts/",
+      "https://webkit.org/web-inspector/web-inspector-interface/"
+    ]
+  },
+  {
+    "id": "apple-screen-sharing",
+    "name": "Screen Sharing",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-screenshot",
+    "name": "Screenshot",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-script-editor",
+    "name": "Script Editor",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "text",
+    "name": "Scrittura macOS",
+    "records": 31,
+    "parsed": 31,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/en-us/102650"
+    ]
+  },
+  {
+    "id": "apple-shortcuts",
+    "name": "Shortcuts",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-siri",
+    "name": "Siri",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-siri-ai",
+    "name": "Siri AI",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "spotlight",
+    "name": "Spotlight",
+    "records": 13,
+    "parsed": 9,
+    "unparsed": 4,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/mac-help/mh26783/mac"
+    ]
+  },
+  {
+    "id": "apple-stickies",
+    "name": "Stickies",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-stocks",
+    "name": "Stocks",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-system-information",
+    "name": "System Information",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-system-settings",
+    "name": "System Settings",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "tv",
+    "name": "TV",
+    "records": 22,
+    "parsed": 20,
+    "unparsed": 2,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/tvapp-mac/atvc572afcf3/mac"
+    ]
+  },
+  {
+    "id": "terminal",
+    "name": "Terminale",
+    "records": 99,
+    "parsed": 88,
+    "unparsed": 11,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/terminal/trmlshtcts/mac"
+    ]
+  },
+  {
+    "id": "textedit",
+    "name": "TextEdit",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": "text",
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-time-machine",
+    "name": "Time Machine",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-tips",
+    "name": "Tips",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "tor",
+    "name": "Tor Browser",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "disk-utility",
+    "name": "Utility Disco",
+    "records": 12,
+    "parsed": 12,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/disk-utility/dsku1b491744/mac"
+    ]
+  },
+  {
+    "id": "vlc",
+    "name": "VLC",
+    "records": 1,
+    "parsed": 1,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://www.youtube.com/watch?v=LLUrxMWdVqU"
+    ]
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "records": 184,
+    "parsed": 180,
+    "unparsed": 4,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://code.visualstudio.com/docs/reference/default-keybindings"
+    ]
+  },
+  {
+    "id": "apple-voiceover-utility",
+    "name": "VoiceOver Utility",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "apple-weather",
+    "name": "Weather",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "imovie",
+    "name": "iMovie",
+    "records": 65,
+    "parsed": 58,
+    "unparsed": 7,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/it-it/guide/imovie/movd9d8f91e8/mac"
+    ]
+  },
+  {
+    "id": "apple-iphone-mirroring",
+    "name": "iPhone Mirroring",
+    "records": 0,
+    "parsed": 0,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Lettura dei menu disponibile se esposti. Catalogo dedicato e verifica della copertura da completare.",
+    "sources": []
+  },
+  {
+    "id": "system",
+    "name": "macOS",
+    "records": 25,
+    "parsed": 25,
+    "unparsed": 0,
+    "parent": null,
+    "liveVerified": false,
+    "note": "Catalogo documentato; verifica nella versione installata da completare.",
+    "sources": [
+      "https://support.apple.com/en-us/102650"
+    ]
+  }
+]
