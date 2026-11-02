@@ -2,7 +2,7 @@
 
 Learn your Mac’s shortcuts as you work. Hold a modifier to see what you can do in the active app; open Studio to explore and practice.
 
-[Download for Mac](https://github.com/giuucmp/scorciatoie/releases/download/v0.3.0/Scorciatoie-0.3.0-universal.dmg) · [Website](https://giuucmp.github.io/scorciatoie/) · [Italiano](README.it.md) · [Contribute](CONTRIBUTING.md)
+[Download for Mac](https://github.com/giuucmp/scorciatoie/releases/download/v0.3.1/Scorciatoie-0.3.1-universal.dmg) · [Website](https://giuucmp.github.io/scorciatoie/) · [Italiano](README.it.md) · [Contribute](CONTRIBUTING.md)
 
 Native macOS app · macOS 13+ · Apple silicon and Intel · English and Italian · MIT license
 
@@ -10,7 +10,7 @@ Native macOS app · macOS 13+ · Apple silicon and Intel · English and Italian 
 
 ## Install
 
-1. Download the DMG from [GitHub Releases](https://github.com/giuucmp/scorciatoie/releases/tag/v0.3.0), open it, and drag **Scorciatoie** into **Applications**.
+1. Download the DMG from [GitHub Releases](https://github.com/giuucmp/scorciatoie/releases/tag/v0.3.1), open it, and drag **Scorciatoie** into **Applications**.
 2. Open the app. This release is not Developer ID signed or Apple-notarized. If macOS blocks the first opening, go to **System Settings → Privacy & Security → Open Anyway** and confirm. Only approve the copy you downloaded from this project’s release.
 3. Enable Scorciatoie in **System Settings → Privacy & Security → Accessibility**. Its Command icon lives in the menu bar.
 
@@ -83,6 +83,7 @@ cd scorciatoie
 ./scripts/check.sh
 python3 scripts/test_key_parser.py
 python3 scripts/test_category_classifier.py
+./Tests/PackagedResourcesChecks/run.sh
 ./scripts/build-app.sh
 ```
 

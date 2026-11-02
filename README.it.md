@@ -2,7 +2,7 @@
 
 Impara le combinazioni del Mac mentre lavori. Tieni premuto un modificatore per vedere cosa puoi fare nell’app attiva; apri Studio per esplorare il catalogo ed esercitarti.
 
-[Scarica per Mac](https://github.com/giuucmp/scorciatoie/releases/download/v0.3.0/Scorciatoie-0.3.0-universal.dmg) · [Sito](https://giuucmp.github.io/scorciatoie/it/) · [English](README.md) · [Contribuisci](CONTRIBUTING.md)
+[Scarica per Mac](https://github.com/giuucmp/scorciatoie/releases/download/v0.3.1/Scorciatoie-0.3.1-universal.dmg) · [Sito](https://giuucmp.github.io/scorciatoie/it/) · [English](README.md) · [Contribuisci](CONTRIBUTING.md)
 
 App macOS nativa · macOS 13+ · Apple silicon e Intel · Italiano e inglese · Licenza MIT
 
@@ -10,7 +10,7 @@ App macOS nativa · macOS 13+ · Apple silicon e Intel · Italiano e inglese · 
 
 ## Installazione
 
-1. Scarica il DMG dai [rilasci su GitHub](https://github.com/giuucmp/scorciatoie/releases/tag/v0.3.0), aprilo e trascina **Scorciatoie** in **Applicazioni**.
+1. Scarica il DMG dai [rilasci su GitHub](https://github.com/giuucmp/scorciatoie/releases/tag/v0.3.1), aprilo e trascina **Scorciatoie** in **Applicazioni**.
 2. Apri l’app. Questa versione non è firmata con Developer ID né notarizzata da Apple. Se macOS blocca il primo avvio, vai in **Impostazioni di Sistema → Privacy e sicurezza → Apri comunque** e conferma. Approva solo la copia scaricata dal rilascio di questo progetto.
 3. Abilita Scorciatoie in **Impostazioni di Sistema → Privacy e sicurezza → Accessibilità**. L’icona Comando resta nella barra dei menu.
 
@@ -83,6 +83,7 @@ cd scorciatoie
 ./scripts/check.sh
 python3 scripts/test_key_parser.py
 python3 scripts/test_category_classifier.py
+./Tests/PackagedResourcesChecks/run.sh
 ./scripts/build-app.sh
 ```
 

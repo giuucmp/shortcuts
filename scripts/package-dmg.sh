@@ -2,7 +2,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 app="${1:-dist/Scorciatoie.app}"
-output="${2:-dist/Scorciatoie-0.3.0-universal.dmg}"
+output="${2:-dist/Scorciatoie-0.3.1-universal.dmg}"
 [[ -d "$app" ]] || { echo "Build the app first: UNIVERSAL=1 ./scripts/build-app.sh" >&2; exit 1; }
 [[ ! -e "$output" ]] || { echo "Output already exists: $output" >&2; exit 1; }
 mkdir -p "$(dirname "$output")"
@@ -11,7 +11,7 @@ trap 'rm -rf "$stage"' EXIT
 ditto "$app" "$stage/Scorciatoie.app"
 ln -s /Applications "$stage/Applications"
 cat > "$stage/READ ME - LEGGIMI.txt" <<'TEXT'
-SCORCIATOIE 0.3.0
+SCORCIATOIE 0.3.1
 
 ENGLISH
 1. Drag Scorciatoie to Applications, then open it from Applications.

@@ -3,7 +3,7 @@ import Foundation
 public enum ShortcutCategory {
     private struct Rule:Decodable {let name:String;let symbol:String;let pattern:String}
     private static let rules:[Rule] = {
-        guard let url=Bundle.module.url(forResource:"category-rules",withExtension:"json"),let data=try? Data(contentsOf:url) else{return []}
+        guard let url=ShortcutResources.bundle.url(forResource:"category-rules",withExtension:"json"),let data=try? Data(contentsOf:url) else{return []}
         return (try? JSONDecoder().decode([Rule].self,from:data)) ?? []
     }()
     private static let compiled:[(Rule,NSRegularExpression)] = rules.compactMap {rule in

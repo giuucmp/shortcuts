@@ -1,4 +1,4 @@
-# Release validation — 0.3.0
+# Release validation — 0.3.1
 
 - Core behavior, catalog integrity, localization completeness, format arguments, language preference order, saved identities and keyboard matcher: 12,954 assertions passed.
 - Python key parser and purpose grouping: 11 tests passed.
@@ -7,6 +7,9 @@
 - Static website exercised in Microsoft Edge at desktop and mobile widths in both languages: images loaded, no horizontal overflow, modifier filtering, empty state, disclosures and keyboard focus.
 - Native glass and secondary-label contrast: 41 assertions passed. Six dark preview renders were pixel-identical before and after the light-only contrast correction.
 - Universal app contains arm64 and x86_64 executables, with macOS 13 deployment targets; ad-hoc signature verified. Built with macOS 27.2 SDK/Swift 6.4.2.
+
+- Packaged Foundation-only probe passed all 12,954 core assertions for both flat and structured resource inputs, with the original build bundle temporarily removed.
+- Resource bundles are normalized for both SwiftPM build backends and resolved from the installed app’s Contents/Resources.
 
 ## Reproduce
 
@@ -18,6 +21,7 @@ python3 scripts/test_category_classifier.py
 UNIVERSAL=1 ./scripts/build-app.sh
 lipo -archs dist/Scorciatoie.app/Contents/MacOS/Scorciatoie
 codesign --verify --deep --strict dist/Scorciatoie.app
+./Tests/PackagedResourcesChecks/run.sh
 ./scripts/package-dmg.sh
 ```
 

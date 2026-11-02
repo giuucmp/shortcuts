@@ -7,7 +7,7 @@ import json
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://giuucmp.github.io/scorciatoie/'
 REPO = 'https://github.com/giuucmp/scorciatoie'
-VERSION = '0.3.0'
+VERSION = '0.3.1'
 DOWNLOAD = f'{REPO}/releases/download/v{VERSION}/Scorciatoie-{VERSION}-universal.dmg'
 ARROW = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 COPY = {
@@ -17,7 +17,7 @@ COPY = {
  'skip': 'Skip to content', 'navHow': 'How it works', 'navInstall': 'Install', 'navSource': 'Source',
  'other': 'Italiano', 'otherLabel': 'Leggi il sito in italiano', 'hero': 'Your app’s shortcuts.<br>One held key away.',
  'intro': 'Hold a modifier. See what you can do in the app you’re using. Learn the combinations as you work.',
- 'download': 'Download for Mac', 'requirements': 'v0.3.0 · macOS 13+ · Apple silicon & Intel',
+ 'download': 'Download for Mac', 'requirements': 'v0.3.1 · macOS 13+ · Apple silicon & Intel',
  'unsigned': 'Not notarized.', 'installLink': 'Read the installation steps',
  'panelAlt': 'Scorciatoie in English: app shortcuts grouped by purpose, with a separate macOS section.',
  'panelCaption': 'Your app’s actions come first. macOS shortcuts stay in a smaller, separate band.',
@@ -73,7 +73,7 @@ COPY = {
  'skip': 'Vai al contenuto', 'navHow': 'Come funziona', 'navInstall': 'Installa', 'navSource': 'Codice',
  'other': 'English', 'otherLabel': 'Read the website in English', 'hero': 'Le scorciatoie della tua app.<br>A un tasto di distanza.',
  'intro': 'Tieni premuto un modificatore. Guarda cosa puoi fare nell’app che stai usando. Impara le combinazioni mentre lavori.',
- 'download': 'Scarica per Mac', 'requirements': 'v0.3.0 · macOS 13+ · Apple silicon e Intel',
+ 'download': 'Scarica per Mac', 'requirements': 'v0.3.1 · macOS 13+ · Apple silicon e Intel',
  'unsigned': 'Non notarizzata.', 'installLink': 'Leggi come installarla',
  'panelAlt': 'Scorciatoie in italiano: comandi dell’app raggruppati per scopo, con una sezione macOS separata.',
  'panelCaption': 'Prima le azioni della tua app. Le scorciatoie macOS restano in una fascia separata, più piccola.',

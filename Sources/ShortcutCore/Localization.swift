@@ -28,7 +28,7 @@ public enum L10n {
     public static let translations:[String:Translation] = {
         var result=[String:Translation]()
         for name in resourceNames {
-            guard let url=Bundle.module.url(forResource:name,withExtension:"json"),let data=try? Data(contentsOf:url),let rows=try? JSONDecoder().decode([String:Translation].self,from:data) else{continue}
+            guard let url=ShortcutResources.bundle.url(forResource:name,withExtension:"json"),let data=try? Data(contentsOf:url),let rows=try? JSONDecoder().decode([String:Translation].self,from:data) else{continue}
             result.merge(rows){_,new in new}
         }
         return result

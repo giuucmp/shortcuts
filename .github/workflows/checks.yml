@@ -17,6 +17,8 @@ jobs:
         run: |
           python3 scripts/test_key_parser.py
           python3 scripts/test_category_classifier.py
+      - name: Installed resource bundles
+        run: ./Tests/PackagedResourcesChecks/run.sh
       - name: Build universal app
         run: UNIVERSAL=1 ./scripts/build-app.sh
       - name: Verify architectures and signature

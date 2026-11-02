@@ -25,6 +25,7 @@ Use Swift 6+ and the macOS 26 SDK from Xcode 26 or equivalent Command Line Tools
 ./scripts/check.sh
 python3 scripts/test_key_parser.py
 python3 scripts/test_category_classifier.py
+./Tests/PackagedResourcesChecks/run.sh
 ./scripts/build-app.sh
 ```
 
@@ -82,6 +83,7 @@ Usa Swift 6+ e l’SDK macOS 26 di Xcode 26 o degli strumenti a riga di comando 
 ./scripts/check.sh
 python3 scripts/test_key_parser.py
 python3 scripts/test_category_classifier.py
+./Tests/PackagedResourcesChecks/run.sh
 ./scripts/build-app.sh
 ```
 

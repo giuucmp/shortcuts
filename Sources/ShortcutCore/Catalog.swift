@@ -13,7 +13,7 @@ public struct Catalog: Codable, Sendable {
     public var profiles: [CatalogProfile]
     public var shortcuts: [Shortcut]
     public static func loadBundled() throws -> Catalog {
-        guard let url = Bundle.module.url(forResource:"catalog",withExtension:"json") else { throw CocoaError(.fileNoSuchFile) }
+        guard let url = ShortcutResources.bundle.url(forResource:"catalog",withExtension:"json") else { throw CocoaError(.fileNoSuchFile) }
         return try JSONDecoder().decode(Catalog.self,from:Data(contentsOf:url))
     }
     public func profile(for bundleID: String) -> CatalogProfile? { profiles.first { $0.bundleIDs.contains(bundleID) } }

@@ -4,6 +4,7 @@ cd "$(dirname "$0")/.."
 export CLANG_MODULE_CACHE_PATH="$PWD/.build/module-cache"
 configuration="${CONFIGURATION:-release}"
 dest="${1:-dist/Scorciatoie.app}"
+[[ "$dest" == *.app ]] || { echo "Destination must end in .app" >&2; exit 1; }
 args=(--disable-sandbox --cache-path "$PWD/.build/cache" -c "$configuration")
 mkdir -p "$dest/Contents/MacOS" "$dest/Contents/Resources"
 if [[ "${UNIVERSAL:-0}" == 1 ]]; then
@@ -24,13 +25,7 @@ else
   bin=$(swift build "${args[@]}" --show-bin-path)
   cp "$bin/Scorciatoie" "$dest/Contents/MacOS/Scorciatoie"
 fi
-# SwiftPM resolves resources beside the executable or in the main bundle.
-for resource in "$bin"/*ShortcutCore*.bundle; do
-  if [[ -d "$resource" ]]; then
-    ditto "$resource" "$dest/Contents/Resources/$(basename "$resource")"
-    ditto "$resource" "$dest/Contents/MacOS/$(basename "$resource")"
-  fi
-done
+./scripts/copy-resources.sh "$bin/Scorciatoie_ShortcutCore.bundle" "$dest"
 cat > "$dest/Contents/Info.plist" <<'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -39,8 +34,8 @@ cat > "$dest/Contents/Info.plist" <<'PLIST'
 <key>CFBundleIdentifier</key><string>it.giuseppecampo.Scorciatoie</string>
 <key>CFBundleName</key><string>Scorciatoie</string>
 <key>CFBundleDisplayName</key><string>Scorciatoie</string>
-<key>CFBundleVersion</key><string>9</string>
-<key>CFBundleShortVersionString</key><string>0.3.0</string>
+<key>CFBundleVersion</key><string>10</string>
+<key>CFBundleShortVersionString</key><string>0.3.1</string>
 <key>CFBundleDevelopmentRegion</key><string>en</string>
 <key>CFBundleLocalizations</key><array><string>en</string><string>it</string></array>
 <key>CFBundleIconFile</key><string>AppIcon</string>
