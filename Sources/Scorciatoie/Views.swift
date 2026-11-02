@@ -11,7 +11,7 @@ struct StudioView:View {
         let items=ShortcutFilter.match(base,modifiers:state.filter,query:state.query).filter{(!state.favoriteOnly || $0.isFavorite(in:model.favorites)) && (state.showUnparsed || !$0.strokes.isEmpty) && (state.mode == .hidden ? model.options.isHidden($0):!model.options.isHidden($0))}
         HSplitView {
             VStack(alignment:.leading,spacing:18) {
-                Label(L10n.text("Scorciatoie"),systemImage:"command.square.fill").font(.title2.weight(.semibold))
+                Label("Shortcuts",systemImage:"command.square.fill").font(.title2.weight(.semibold))
                 Text(L10n.text("Impara mentre lavori.")).foregroundStyle(Color(nsColor:ShortcutSecondary.color))
                 Picker(L10n.text("Sezione"),selection:$state.mode) {
                     ForEach(StudioMode.allCases,id:\.self){Text(L10n.text($0.rawValue)).tag($0)}

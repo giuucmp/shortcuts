@@ -11,10 +11,6 @@
     "it": "Aspetto",
     "en": "Appearance"
   },
-  "Scorciatoie": {
-    "it": "Scorciatoie",
-    "en": "Scorciatoie"
-  },
   "Richiamo": {
     "it": "Richiamo",
     "en": "Activation"
@@ -187,9 +183,9 @@
     "it": "Accessibilità attiva",
     "en": "Accessibility enabled"
   },
-  "Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Scorciatoie.": {
-    "it": "Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Scorciatoie.",
-    "en": "Accessibility is not working yet. After enabling it, restart Scorciatoie."
+  "Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Shortcuts.": {
+    "it": "Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Shortcuts.",
+    "en": "Accessibility is not working yet. After enabling it, restart Shortcuts."
   },
   "Adatta i comandi a quello che sto facendo": {
     "it": "Adatta i comandi a quello che sto facendo",
@@ -331,9 +327,9 @@
     "it": "Combinazione documentata senza condizioni specifiche indicate. La disponibilità effettiva dipende dall’app e dal contesto.",
     "en": "Documented shortcut with no specific conditions stated. Actual availability depends on the app and context."
   },
-  "Come vuoi usare Scorciatoie?": {
-    "it": "Come vuoi usare Scorciatoie?",
-    "en": "Make Scorciatoie yours"
+  "Come vuoi usare Shortcuts?": {
+    "it": "Come vuoi usare Shortcuts?",
+    "en": "Make Shortcuts yours"
   },
   "Con browser integrato disponibile": {
     "it": "Con browser integrato disponibile",
@@ -391,9 +387,9 @@
     "it": "Dopo aver chiuso una scheda",
     "en": "After closing a tab"
   },
-  "Esci da Scorciatoie": {
-    "it": "Esci da Scorciatoie",
-    "en": "Quit Scorciatoie"
+  "Esci da Shortcuts": {
+    "it": "Esci da Shortcuts",
+    "en": "Quit Shortcuts"
   },
   "Esporta copertura attuale…": {
     "it": "Esporta copertura attuale…",
@@ -683,25 +679,25 @@
     "it": "Schede e finestre",
     "en": "Tabs and windows"
   },
-  "Scorciatoie · Apri impostazioni": {
-    "it": "Scorciatoie · Apri impostazioni",
-    "en": "Scorciatoie · Open settings"
+  "Shortcuts · Apri impostazioni": {
+    "it": "Shortcuts · Apri impostazioni",
+    "en": "Shortcuts · Open settings"
   },
-  "Scorciatoie · Impostazioni": {
-    "it": "Scorciatoie · Impostazioni",
-    "en": "Scorciatoie · Settings"
+  "Shortcuts · Impostazioni": {
+    "it": "Shortcuts · Impostazioni",
+    "en": "Shortcuts · Settings"
   },
-  "Scorciatoie · Impostazioni (clic destro: Studio e comandi)": {
-    "it": "Scorciatoie · Impostazioni (clic destro: Studio e comandi)",
-    "en": "Scorciatoie · Settings (right-click: Studio and commands)"
+  "Shortcuts · Impostazioni (clic destro: Studio e comandi)": {
+    "it": "Shortcuts · Impostazioni (clic destro: Studio e comandi)",
+    "en": "Shortcuts · Settings (right-click: Studio and commands)"
   },
-  "Scorciatoie · Studio": {
-    "it": "Scorciatoie · Studio",
-    "en": "Scorciatoie · Studio"
+  "Shortcuts · Studio": {
+    "it": "Shortcuts · Studio",
+    "en": "Shortcuts · Studio"
   },
-  "Scorciatoie · Pannello": {
-    "it": "Scorciatoie · Pannello",
-    "en": "Scorciatoie · Panel"
+  "Shortcuts · Pannello": {
+    "it": "Shortcuts · Pannello",
+    "en": "Shortcuts · Panel"
   },
   "Scorciatoie disponibili · tutte insieme": {
     "it": "Scorciatoie disponibili · tutte insieme",

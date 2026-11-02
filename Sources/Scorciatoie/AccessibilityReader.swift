@@ -41,7 +41,7 @@ enum AccessibilityReader {
         var menuValue:CFTypeRef?
         let menuStatus=AXUIElementCopyAttributeValue(app,kAXMenuBarAttribute as CFString,&menuValue)
         guard let menu=element(menuValue) else {
-            let message=menuStatus == .apiDisabled ? L10n.text("Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Scorciatoie.") : L10n.format("Menu non disponibile (AX %d). Riprova con l’app in primo piano.",menuStatus.rawValue)
+            let message=menuStatus == .apiDisabled ? L10n.text("Accessibilità non ancora operativa. Dopo averla abilitata, riavvia Shortcuts.") : L10n.format("Menu non disponibile (AX %d). Riprova con l’app in primo piano.",menuStatus.rawValue)
             return ScanResult(shortcuts:[],message:message,complete:false,focusedRole:role,frame:frame)
         }
         var result=[Shortcut](); var nodes=0; var partial=false

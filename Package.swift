@@ -2,7 +2,7 @@
 import PackageDescription
 let package = Package(
     name: "Scorciatoie", platforms: [.macOS(.v13)],
-    products: [.executable(name: "Scorciatoie", targets: ["Scorciatoie"]), .library(name: "ShortcutCore", targets: ["ShortcutCore"])],
+    products: [.executable(name: "Shortcuts", targets: ["Scorciatoie"]), .library(name: "ShortcutCore", targets: ["ShortcutCore"])],
     targets: [
         .target(name: "ShortcutCore", resources: [.process("Resources")]),
         .executableTarget(name: "Scorciatoie", dependencies: ["ShortcutCore"]),

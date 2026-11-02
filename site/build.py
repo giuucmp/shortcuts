@@ -5,26 +5,26 @@ from html import escape
 import json
 
 ROOT = Path(__file__).resolve().parent
-BASE = 'https://giuucmp.github.io/scorciatoie/'
-REPO = 'https://github.com/giuucmp/scorciatoie'
-VERSION = '0.3.1'
-DOWNLOAD = f'{REPO}/releases/download/v{VERSION}/Scorciatoie-{VERSION}-universal.dmg'
+BASE = 'https://giuucmp.github.io/shortcuts/'
+REPO = 'https://github.com/giuucmp/shortcuts'
+VERSION = '0.3.2'
+DOWNLOAD = f'{REPO}/releases/download/v{VERSION}/Shortcuts-{VERSION}-universal.dmg'
 ARROW = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 COPY = {
 'en': {
- 'title': 'Scorciatoie — Learn your Mac’s shortcuts as you work',
+ 'title': 'Shortcuts — Learn your Mac’s shortcuts as you work',
  'description': 'A native, open-source Mac app. Hold a modifier to see the active app’s shortcuts, then practice in Studio. English and Italian. Everything stays on your Mac.',
  'skip': 'Skip to content', 'navHow': 'How it works', 'navInstall': 'Install', 'navSource': 'Source',
  'other': 'Italiano', 'otherLabel': 'Leggi il sito in italiano', 'hero': 'Your app’s shortcuts.<br>One held key away.',
  'intro': 'Hold a modifier. See what you can do in the app you’re using. Learn the combinations as you work.',
- 'download': 'Download for Mac', 'requirements': 'v0.3.1 · macOS 13+ · Apple silicon & Intel',
+ 'download': 'Download for Mac', 'requirements': 'v0.3.2 · macOS 13+ · Apple silicon & Intel',
  'unsigned': 'Not notarized.', 'installLink': 'Read the installation steps',
- 'panelAlt': 'Scorciatoie in English: app shortcuts grouped by purpose, with a separate macOS section.',
+ 'panelAlt': 'Shortcuts in English: app shortcuts grouped by purpose, with a separate macOS section.',
  'panelCaption': 'Your app’s actions come first. macOS shortcuts stay in a smaller, separate band.',
  'fullSize': 'View full-size screenshot',
  'panelPending': 'Hold a modifier to reveal the active app’s shortcuts. Release it to close the panel.',
  'howTitle': 'A brief look.<br>Back to your work.',
- 'howIntro': 'Scorciatoie lives in your menu bar. Its temporary panel stays out of the way of the app you’re using.',
+ 'howIntro': 'Shortcuts lives in your menu bar. Its temporary panel stays out of the way of the app you’re using.',
  'howSteps': [
   ('Hold a modifier', 'Press and hold Command, Option, Control, Shift or Fn. After a short delay, the panel appears.'),
   ('Narrow the choices', 'Add another modifier to filter the combinations. Actions remain grouped by what you want to do.'),
@@ -36,7 +36,7 @@ COPY = {
  'demoRows': [('New Finder window','⌘N','command'), ('New tab','⌘T','command'), ('Get Info','⌘I','command'), ('New folder','⇧⌘N','command shift'), ('Go to folder','⇧⌘G','command shift'), ('Open Downloads','⌥⌘L','command option')],
  'practiceTitle': 'Make the next shortcut<br>one you remember.',
  'practiceIntro': 'Open Studio to explore the catalog or practice with the keyboard. Choose an app, focus the exercise, and enter the combination or sequence. Review a mistake, then try again.',
- 'practiceAlt': 'Scorciatoie Studio in English, showing a keyboard practice exercise.',
+ 'practiceAlt': 'Shortcuts Studio in English, showing a keyboard practice exercise.',
  'practiceCaption': 'Exercises use local, focused keyboard input. OS-reserved combinations are excluded from typing practice.',
  'practicePending': 'Studio brings the catalog, your favorites and keyboard practice into one window.',
  'features': [
@@ -47,17 +47,17 @@ COPY = {
  'installTitle': 'A few steps.<br>Then it’s at hand.',
  'installIntro': 'This release is free and open source. It is not Developer ID signed or Apple-notarized, so macOS may ask you to approve it once.',
  'installSteps': [
-  ('Move it to Applications', 'Download the DMG, open it, and drag Scorciatoie into <span class="path">Applications</span>. Then open Scorciatoie from there.'),
-  ('Approve the first opening', 'If macOS blocks it, go to <span class="path">System Settings → Privacy &amp; Security → Open Anyway</span>, then confirm opening Scorciatoie. Only approve the copy you downloaded from this project’s release.'),
-  ('Allow Accessibility', 'Enable Scorciatoie in <span class="path">System Settings → Privacy &amp; Security → Accessibility</span>. This lets it read app menus and detect the held modifiers. Its Command icon then lives in your menu bar.')
+  ('Move it to Applications', 'Download the DMG, open it, and drag Shortcuts into <span class="path">Applications</span>. Then open Shortcuts from there.'),
+  ('Approve the first opening', 'If macOS blocks it, go to <span class="path">System Settings → Privacy &amp; Security → Open Anyway</span>, then confirm opening Shortcuts. Only approve the copy you downloaded from this project’s release.'),
+  ('Allow Accessibility', 'Enable Shortcuts in <span class="path">System Settings → Privacy &amp; Security → Accessibility</span>. This lets it read app menus and detect the held modifiers. Its Command icon then lives in your menu bar.')
  ],
  'installNote': 'No Screen Recording permission is needed. You can turn off Accessibility access at any time in System Settings. After an update, macOS may ask you to enable it again.',
  'factsTitle': 'Know what<br>you’re installing.',
  'faq': [
-  ('What does Scorciatoie read?', 'The active app’s accessible menus and structural context, offline shortcut catalogs, and supported editor keybinding files and extension declarations. It does not record what you type in other apps. There is no sign-in, telemetry or network traffic from the app; preferences and practice progress stay local.'),
+  ('What does Shortcuts read?', 'The active app’s accessible menus and structural context, offline shortcut catalogs, and supported editor keybinding files and extension declarations. It does not record what you type in other apps. There is no sign-in, telemetry or network traffic from the app; preferences and practice progress stay local.'),
   ('Does it know every shortcut?', 'No. Coverage combines live menus, documented offline catalogs and supported VS Code/Cursor bindings. A recognized app is not a guarantee of complete coverage. Some menus load only when opened, and not every context or extension condition can be resolved. The app marks partial or conditional information.'),
   ('Are both languages fully supported?', 'The interface, bundled catalog and exercises support English and Italian, with an automatic system-language option. An unfamiliar live command title from a third-party app stays in its original language when no translation is in the catalog.'),
-  ('Will it work on an older Mac?', 'Scorciatoie requires macOS 13 or later. The download supports Apple silicon and Intel. Native Liquid Glass is available on macOS 26 and later; earlier systems use a translucent fallback. Reduce Transparency and Increase Contrast settings are respected.'),
+  ('Will it work on an older Mac?', 'Shortcuts requires macOS 13 or later. The download supports Apple silicon and Intel. Native Liquid Glass is available on macOS 26 and later; earlier systems use a translucent fallback. Reduce Transparency and Increase Contrast settings are respected.'),
   ('Will an exercise run commands in another app?', 'Practice is a focused, local exercise. It captures input only while its keyboard field has focus, and OS-reserved combinations are excluded from typing exercises. The passive overlay is separate: it never intercepts your app’s commands.'),
   ('Can I change or remove it?', 'Yes. Pause or quit it from the menu bar, revoke Accessibility permission in System Settings, or remove the app from Applications. The source is available under the MIT license, so you can inspect, build and adapt it.')
  ],
@@ -68,19 +68,19 @@ COPY = {
  'keys': [('command','⌘','Command'),('option','⌥','Option'),('control','⌃','Control'),('shift','⇧','Shift'),('function','fn','Fn')]
 },
 'it': {
- 'title': 'Scorciatoie — Impara le combinazioni del Mac mentre lavori',
+ 'title': 'Shortcuts — Impara le combinazioni del Mac mentre lavori',
  'description': 'Un’app Mac nativa e open source. Tieni premuto un modificatore per vedere le scorciatoie dell’app attiva, poi esercitati in Studio. Italiano e inglese. Tutto resta sul Mac.',
  'skip': 'Vai al contenuto', 'navHow': 'Come funziona', 'navInstall': 'Installa', 'navSource': 'Codice',
  'other': 'English', 'otherLabel': 'Read the website in English', 'hero': 'Le scorciatoie della tua app.<br>A un tasto di distanza.',
  'intro': 'Tieni premuto un modificatore. Guarda cosa puoi fare nell’app che stai usando. Impara le combinazioni mentre lavori.',
- 'download': 'Scarica per Mac', 'requirements': 'v0.3.1 · macOS 13+ · Apple silicon e Intel',
+ 'download': 'Scarica per Mac', 'requirements': 'v0.3.2 · macOS 13+ · Apple silicon e Intel',
  'unsigned': 'Non notarizzata.', 'installLink': 'Leggi come installarla',
- 'panelAlt': 'Scorciatoie in italiano: comandi dell’app raggruppati per scopo, con una sezione macOS separata.',
+ 'panelAlt': 'Shortcuts in italiano: comandi dell’app raggruppati per scopo, con una sezione macOS separata.',
  'panelCaption': 'Prima le azioni della tua app. Le scorciatoie macOS restano in una fascia separata, più piccola.',
  'fullSize': 'Apri la schermata a dimensione intera',
  'panelPending': 'Tieni premuto un modificatore per vedere le scorciatoie dell’app attiva. Rilascialo per chiudere il pannello.',
  'howTitle': 'Un’occhiata.<br>E torni al lavoro.',
- 'howIntro': 'Scorciatoie vive nella barra dei menu. Il suo pannello temporaneo lascia il controllo all’app che stai usando.',
+ 'howIntro': 'Shortcuts vive nella barra dei menu. Il suo pannello temporaneo lascia il controllo all’app che stai usando.',
  'howSteps': [
   ('Tieni premuto un modificatore', 'Premi e tieni premuto Comando, Opzione, Ctrl, Maiuscole o Fn. Dopo una breve attesa, compare il pannello.'),
   ('Restringi la scelta', 'Aggiungi un altro modificatore per filtrare le combinazioni. Le azioni restano raggruppate in base a quello che vuoi fare.'),
@@ -92,7 +92,7 @@ COPY = {
  'demoRows': [('Nuova finestra Finder','⌘N','command'), ('Nuovo pannello','⌘T','command'), ('Ottieni informazioni','⌘I','command'), ('Nuova cartella','⇧⌘N','command shift'), ('Vai alla cartella','⇧⌘G','command shift'), ('Apri Download','⌥⌘L','command option')],
  'practiceTitle': 'La prossima scorciatoia<br>te la ricordi.',
  'practiceIntro': 'Apri Studio per esplorare il catalogo o esercitarti con la tastiera. Scegli un’app, attiva l’esercizio e digita la combinazione o la sequenza. Rivedi un errore, poi riprova.',
- 'practiceAlt': 'Studio di Scorciatoie in italiano, con un esercizio da svolgere con la tastiera.',
+ 'practiceAlt': 'Studio di Shortcuts in italiano, con un esercizio da svolgere con la tastiera.',
  'practiceCaption': 'Gli esercizi acquisiscono i tasti localmente, nel campo attivo. Le combinazioni riservate al sistema sono escluse dalla pratica digitata.',
  'practicePending': 'Studio riunisce il catalogo, i tuoi preferiti e gli esercizi con la tastiera in una finestra.',
  'features': [
@@ -103,17 +103,17 @@ COPY = {
  'installTitle': 'Pochi passaggi.<br>Poi è a portata di mano.',
  'installIntro': 'Questa versione è gratuita e open source. Non è firmata con Developer ID né notarizzata da Apple: macOS può chiederti di approvarne il primo avvio.',
  'installSteps': [
-  ('Spostala in Applicazioni', 'Scarica il DMG, aprilo e trascina Scorciatoie in <span class="path">Applicazioni</span>. Poi apri Scorciatoie da lì.'),
-  ('Approva il primo avvio', 'Se macOS la blocca, vai in <span class="path">Impostazioni di Sistema → Privacy e sicurezza → Apri comunque</span>, poi conferma l’apertura di Scorciatoie. Approva solo la copia scaricata dal rilascio di questo progetto.'),
-  ('Consenti l’accesso ad Accessibilità', 'Abilita Scorciatoie in <span class="path">Impostazioni di Sistema → Privacy e sicurezza → Accessibilità</span>. Serve per leggere i menu delle app e rilevare i modificatori premuti. L’icona Comando resta nella barra dei menu.')
+  ('Spostala in Applicazioni', 'Scarica il DMG, aprilo e trascina Shortcuts in <span class="path">Applicazioni</span>. Poi apri Shortcuts da lì.'),
+  ('Approva il primo avvio', 'Se macOS la blocca, vai in <span class="path">Impostazioni di Sistema → Privacy e sicurezza → Apri comunque</span>, poi conferma l’apertura di Shortcuts. Approva solo la copia scaricata dal rilascio di questo progetto.'),
+  ('Consenti l’accesso ad Accessibilità', 'Abilita Shortcuts in <span class="path">Impostazioni di Sistema → Privacy e sicurezza → Accessibilità</span>. Serve per leggere i menu delle app e rilevare i modificatori premuti. L’icona Comando resta nella barra dei menu.')
  ],
  'installNote': 'Non serve il permesso Registrazione schermo. Puoi disattivare l’accesso ad Accessibilità in qualsiasi momento dalle Impostazioni di Sistema. Dopo un aggiornamento, macOS potrebbe chiederti di abilitarlo di nuovo.',
  'factsTitle': 'Sai cosa<br>stai installando.',
  'faq': [
-  ('Cosa legge Scorciatoie?', 'I menu accessibili e il contesto strutturale dell’app attiva, i cataloghi offline e i file delle assegnazioni e le dichiarazioni delle estensioni degli editor supportati. Non registra quello che digiti nelle altre app. L’app non richiede account, non invia telemetria e non effettua traffico di rete; preferenze e progressi restano locali.'),
+  ('Cosa legge Shortcuts?', 'I menu accessibili e il contesto strutturale dell’app attiva, i cataloghi offline e i file delle assegnazioni e le dichiarazioni delle estensioni degli editor supportati. Non registra quello che digiti nelle altre app. L’app non richiede account, non invia telemetria e non effettua traffico di rete; preferenze e progressi restano locali.'),
   ('Conosce tutte le scorciatoie?', 'No. La copertura unisce menu live, cataloghi offline documentati e assegnazioni supportate di VS Code e Cursor. Un’app riconosciuta non garantisce una copertura completa. Alcuni menu si caricano solo quando vengono aperti e non tutte le condizioni del contesto o delle estensioni sono interpretabili. L’app segnala le informazioni parziali o condizionate.'),
   ('Sono supportate entrambe le lingue?', 'Interfaccia, catalogo incluso ed esercizi supportano italiano e inglese, con un’opzione automatica che segue la lingua del sistema. Un titolo live sconosciuto proveniente da un’app di terze parti resta nella lingua originale quando manca una traduzione nel catalogo.'),
-  ('Funziona su un Mac meno recente?', 'Scorciatoie richiede macOS 13 o successivo. Il download supporta Apple silicon e Intel. Liquid Glass nativo è disponibile da macOS 26; sui sistemi precedenti viene usato un materiale traslucido. Sono rispettate le impostazioni Riduci trasparenza e Aumenta contrasto.'),
+  ('Funziona su un Mac meno recente?', 'Shortcuts richiede macOS 13 o successivo. Il download supporta Apple silicon e Intel. Liquid Glass nativo è disponibile da macOS 26; sui sistemi precedenti viene usato un materiale traslucido. Sono rispettate le impostazioni Riduci trasparenza e Aumenta contrasto.'),
   ('Un esercizio esegue comandi in altre app?', 'La pratica avviene in un esercizio locale dedicato. Acquisisce i tasti solo quando il suo campo ha il focus ed esclude dalla digitazione le combinazioni riservate al sistema. Il pannello consultivo è separato: non intercetta i comandi delle tue app.'),
   ('Posso modificarla o rimuoverla?', 'Sì. Puoi metterla in pausa o chiuderla dalla barra dei menu, revocare Accessibilità nelle Impostazioni di Sistema o rimuoverla da Applicazioni. Il codice è disponibile con licenza MIT: puoi leggerlo, compilarlo e adattarlo.')
  ],
@@ -138,7 +138,7 @@ def render(lang):
     rows=''.join(f'<li data-keys="{mods}"><span>{title}</span><kbd>{keys}</kbd></li>' for title,keys,mods in c['demoRows'])
     features=''.join(f'<div><h3>{title}</h3><p>{body}</p></div>' for title,body in c['features'])
     faq=''.join(f'<details><summary>{title}</summary><p>{body}</p></details>' for title,body in c['faq'])
-    schema={'@context':'https://schema.org','@type':'SoftwareApplication','name':'Scorciatoie','operatingSystem':'macOS 13+','applicationCategory':'UtilitiesApplication','inLanguage':['en','it'],'softwareVersion':VERSION,'license':REPO+'/blob/main/LICENSE','downloadUrl':DOWNLOAD,'offers':{'@type':'Offer','price':'0','priceCurrency':'EUR'}}
+    schema={'@context':'https://schema.org','@type':'SoftwareApplication','name':'Shortcuts','operatingSystem':'macOS 13+','applicationCategory':'UtilitiesApplication','inLanguage':['en','it'],'softwareVersion':VERSION,'license':REPO+'/blob/main/LICENSE','downloadUrl':DOWNLOAD,'offers':{'@type':'Offer','price':'0','priceCurrency':'EUR'}}
     return f'''<!doctype html>
 <!-- Generated by site/build.py. Edit the bilingual copy there, then rebuild. -->
 <html lang="{lang}">
@@ -166,7 +166,7 @@ def render(lang):
 <body>
 <a class="skip" href="#main">{c['skip']}</a>
 <header class="header wrap">
-<a class="brand" href="{'./' if lang=='en' else '../it/'}"><img src="{rel}assets/app-icon.png" alt="" width="43" height="43">Scorciatoie</a>
+<a class="brand" href="{'./' if lang=='en' else '../it/'}"><img src="{rel}assets/app-icon.png" alt="" width="43" height="43">Shortcuts</a>
 <nav class="nav" aria-label="{'Main navigation' if lang=='en' else 'Navigazione principale'}">
 <a class="desktop-link" href="#how-it-works">{c['navHow']}</a><a class="desktop-link" href="#install">{c['navInstall']}</a><a href="{REPO}">{c['navSource']}</a><a class="language" href="{other}" lang="{otherlang}" hreflang="{otherlang}" aria-label="{c['otherLabel']}">{c['other']}</a>
 </nav>

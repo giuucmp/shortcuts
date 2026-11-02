@@ -4,11 +4,11 @@
 
 ## English
 
-Thank you for helping improve Scorciatoie. Small, verifiable changes are useful: a corrected shortcut, a clearer translation, a reproducible bug report or an accessibility improvement.
+Thank you for helping improve Shortcuts. Small, verifiable changes are useful: a corrected shortcut, a clearer translation, a reproducible bug report or an accessibility improvement.
 
 ### Report a problem
 
-[Open an issue](https://github.com/giuucmp/scorciatoie/issues) with:
+[Open an issue](https://github.com/giuucmp/shortcuts/issues) with:
 
 - macOS version, app version and Apple silicon/Intel architecture.
 - The target app and its version, the exact command and keys, and where you expected it to appear.
@@ -62,11 +62,11 @@ Before a public release, maintainers must verify the built architectures, minimu
 
 ## Italiano
 
-Grazie per il contributo a Scorciatoie. Sono utili anche modifiche piccole e verificabili: una combinazione corretta, una traduzione più chiara, un problema riproducibile o un miglioramento dell’accessibilità.
+Grazie per il contributo a Shortcuts. Sono utili anche modifiche piccole e verificabili: una combinazione corretta, una traduzione più chiara, un problema riproducibile o un miglioramento dell’accessibilità.
 
 ### Segnalare un problema
 
-[Apri una issue](https://github.com/giuucmp/scorciatoie/issues) indicando:
+[Apri una issue](https://github.com/giuucmp/shortcuts/issues) indicando:
 
 - Versione di macOS, versione dell’app e architettura Apple silicon/Intel.
 - App interessata e relativa versione, comando e tasti esatti, punto in cui ti aspettavi di trovarlo.

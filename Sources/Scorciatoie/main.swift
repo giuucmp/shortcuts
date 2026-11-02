@@ -22,8 +22,8 @@ final class AppDelegate:NSObject,NSApplicationDelegate,NSMenuDelegate {
         appearanceUpdates=model.$options.sink {[weak self] options in
             L10n.language=options.language
             if self?.status != nil {self?.configureMenus()}
-            self?.study?.title=L10n.text("Scorciatoie · Studio")
-            self?.preferences?.title=L10n.text("Scorciatoie · Impostazioni")
+            self?.study?.title=L10n.text("Shortcuts · Studio")
+            self?.preferences?.title=L10n.text("Shortcuts · Impostazioni")
             self?.study?.appearance=options.theme.nativeAppearance
             self?.preferences?.appearance=options.theme.nativeAppearance
         }
@@ -32,11 +32,11 @@ final class AppDelegate:NSObject,NSApplicationDelegate,NSMenuDelegate {
         status.autosaveName="Scorciatoie.MenuBar"
         status.behavior=[];status.isVisible=true
         if let button=status.button {
-            if let icon=NSImage(systemSymbolName:"command.square",accessibilityDescription:L10n.text("Scorciatoie · Impostazioni")) {
+            if let icon=NSImage(systemSymbolName:"command.square",accessibilityDescription:L10n.text("Shortcuts · Impostazioni")) {
                 icon.isTemplate=true;icon.size=NSSize(width:17,height:17);button.image=icon
             } else {button.title="⌘"}
-            button.toolTip=L10n.text("Scorciatoie · Impostazioni (clic destro: Studio e comandi)")
-            button.setAccessibilityLabel(L10n.text("Scorciatoie · Apri impostazioni"))
+            button.toolTip=L10n.text("Shortcuts · Impostazioni (clic destro: Studio e comandi)")
+            button.setAccessibilityLabel(L10n.text("Shortcuts · Apri impostazioni"))
             button.target=self;button.action=#selector(statusClicked(_:))
             button.sendAction(on:[.leftMouseUp,.rightMouseUp])
         }
@@ -67,21 +67,21 @@ final class AppDelegate:NSObject,NSApplicationDelegate,NSMenuDelegate {
         add("Importa scorciatoie personali…",action:#selector(importCustom),to:menu)
         add("Esporta copertura attuale…",action:#selector(exportCoverage),to:menu)
         add("Verifica menu delle app aperte…",action:#selector(auditMenus),to:menu)
-        add(L10n.text("Esci da Scorciatoie"),action:#selector(quit),to:menu)
+        add(L10n.text("Esci da Shortcuts"),action:#selector(quit),to:menu)
         statusMenu=menu
         let main=NSMenu()
-        let appItem=NSMenuItem();let appMenu=NSMenu(title:"Scorciatoie")
+        let appItem=NSMenuItem();let appMenu=NSMenu(title:"Shortcuts")
         appItem.submenu=appMenu;main.addItem(appItem)
         add("Apri Studio",action:#selector(openStudy),to:appMenu)
         add("Impostazioni…",action:#selector(openPreferences),to:appMenu)
         add("Verifica menu delle app aperte…",action:#selector(auditMenus),to:appMenu)
         appMenu.addItem(.separator())
-        let quitItem=NSMenuItem(title:L10n.text("Esci da Scorciatoie"),action:#selector(quit),keyEquivalent:"q");quitItem.target=self;appMenu.addItem(quitItem)
+        let quitItem=NSMenuItem(title:L10n.text("Esci da Shortcuts"),action:#selector(quit),keyEquivalent:"q");quitItem.target=self;appMenu.addItem(quitItem)
         let editItem=NSMenuItem();let edit=NSMenu(title:L10n.text("Modifica"));editItem.submenu=edit;main.addItem(editItem)
         for (title,selector,key) in [("Taglia",#selector(NSText.cut(_:)),"x"),("Copia",#selector(NSText.copy(_:)),"c"),("Incolla",#selector(NSText.paste(_:)),"v"),("Seleziona tutto",#selector(NSText.selectAll(_:)),"a")] {edit.addItem(NSMenuItem(title:L10n.text(title),action:selector,keyEquivalent:key))}
         NSApp.mainMenu=main
-        status.button?.toolTip=L10n.text("Scorciatoie · Impostazioni (clic destro: Studio e comandi)")
-        status.button?.setAccessibilityLabel(L10n.text("Scorciatoie · Apri impostazioni"))
+        status.button?.toolTip=L10n.text("Shortcuts · Impostazioni (clic destro: Studio e comandi)")
+        status.button?.setAccessibilityLabel(L10n.text("Shortcuts · Apri impostazioni"))
     }
     func add(_ name:String,action:Selector,to menu:NSMenu) {let item=NSMenuItem(title:L10n.text(name),action:action,keyEquivalent:"");item.target=self;menu.addItem(item)}
     func menuWillOpen(_ menu:NSMenu) {model.trusted=AXIsProcessTrusted()}
@@ -97,7 +97,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,NSMenuDelegate {
             let view=StudioView(model:model,state:studioState,useProfile:{[weak self] id in self?.model.useProfile(id)})
             let screen=NSScreen.main?.visibleFrame ?? NSRect(x:0,y:0,width:1440,height:900)
             let w=NSWindow(contentRect:NSRect(x:0,y:0,width:max(820,screen.width*0.92),height:max(620,screen.height*0.90)),styleMask:[.titled,.closable,.miniaturizable,.resizable],backing:.buffered,defer:false)
-            w.title=L10n.text("Scorciatoie · Studio");w.appearance=model.options.theme.nativeAppearance;w.contentView=NSHostingView(rootView:view);w.isReleasedWhenClosed=false;w.center();study=w
+            w.title=L10n.text("Shortcuts · Studio");w.appearance=model.options.theme.nativeAppearance;w.contentView=NSHostingView(rootView:view);w.isReleasedWhenClosed=false;w.center();study=w
         }
         NSApp.activate(ignoringOtherApps:true);study?.makeKeyAndOrderFront(nil)
     }
@@ -108,7 +108,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,NSMenuDelegate {
             let view=PreferencesView(model:model,state:PreferenceState(),manageHidden:{[weak self] in
                 guard let self else{return};self.studioState.mode = .hidden;self.studioState.query="";self.studioState.filter=[];self.studioState.favoriteOnly=false;self.openStudy()
             })
-            w.title=L10n.text("Scorciatoie · Impostazioni");w.appearance=model.options.theme.nativeAppearance;w.contentView=NSHostingView(rootView:view);w.isReleasedWhenClosed=false;w.center();preferences=w
+            w.title=L10n.text("Shortcuts · Impostazioni");w.appearance=model.options.theme.nativeAppearance;w.contentView=NSHostingView(rootView:view);w.isReleasedWhenClosed=false;w.center();preferences=w
         }
         NSApp.activate(ignoringOtherApps:true);preferences?.makeKeyAndOrderFront(nil)
     }

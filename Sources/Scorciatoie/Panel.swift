@@ -39,7 +39,7 @@ final class ShortcutPanel:NSPanel {
             guard self.holdIsValid else{self.dismiss();return}
             self.updateLayout()
         }
-        title=L10n.text("Scorciatoie · Pannello")
+        title=L10n.text("Shortcuts · Pannello")
         setAccessibilityLabel(L10n.text("Scorciatoie disponibili · tutte insieme"))
     }
     private func installSurface() {
@@ -75,7 +75,7 @@ final class ShortcutPanel:NSPanel {
         orderFrontRegardless()
     }
     private func updateLayout() {
-        title=L10n.text("Scorciatoie · Pannello")
+        title=L10n.text("Shortcuts · Pannello")
         setAccessibilityLabel(L10n.text("Scorciatoie disponibili · tutte insieme"))
         var changedSnapshot=false
         if snapshot==nil {snapshot=PanelSnapshot(items:model.panelItems,modifiers:model.modifiers,favorites:model.favorites);snapshotContext=model.contextLabel;changedSnapshot=true}

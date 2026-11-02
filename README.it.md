@@ -1,8 +1,8 @@
-# Scorciatoie
+# Shortcuts
 
 Impara le combinazioni del Mac mentre lavori. Tieni premuto un modificatore per vedere cosa puoi fare nell’app attiva; apri Studio per esplorare il catalogo ed esercitarti.
 
-[Scarica per Mac](https://github.com/giuucmp/scorciatoie/releases/download/v0.3.1/Scorciatoie-0.3.1-universal.dmg) · [Sito](https://giuucmp.github.io/scorciatoie/it/) · [English](README.md) · [Contribuisci](CONTRIBUTING.md)
+[Scarica per Mac](https://github.com/giuucmp/shortcuts/releases/download/v0.3.2/Shortcuts-0.3.2-universal.dmg) · [Sito](https://giuucmp.github.io/shortcuts/it/) · [English](README.md) · [Contribuisci](CONTRIBUTING.md)
 
 App macOS nativa · macOS 13+ · Apple silicon e Intel · Italiano e inglese · Licenza MIT
 
@@ -10,11 +10,13 @@ App macOS nativa · macOS 13+ · Apple silicon e Intel · Italiano e inglese · 
 
 ## Installazione
 
-1. Scarica il DMG dai [rilasci su GitHub](https://github.com/giuucmp/scorciatoie/releases/tag/v0.3.1), aprilo e trascina **Scorciatoie** in **Applicazioni**.
+1. Scarica il DMG dai [rilasci su GitHub](https://github.com/giuucmp/shortcuts/releases/tag/v0.3.2), aprilo e trascina **Shortcuts** in **Applicazioni**.
 2. Apri l’app. Questa versione non è firmata con Developer ID né notarizzata da Apple. Se macOS blocca il primo avvio, vai in **Impostazioni di Sistema → Privacy e sicurezza → Apri comunque** e conferma. Approva solo la copia scaricata dal rilascio di questo progetto.
-3. Abilita Scorciatoie in **Impostazioni di Sistema → Privacy e sicurezza → Accessibilità**. L’icona Comando resta nella barra dei menu.
+3. Abilita Shortcuts in **Impostazioni di Sistema → Privacy e sicurezza → Accessibilità**. L’icona Comando resta nella barra dei menu.
 
 Non serve il permesso Registrazione schermo. Puoi revocare Accessibilità in qualsiasi momento. Dopo un aggiornamento, macOS potrebbe chiederti di abilitarla di nuovo.
+
+**Aggiorni da Scorciatoie?** Chiudi la vecchia copia, installa Shortcuts e poi rimuovi la vecchia app Scorciatoie. Preferenze, preferiti, comandi nascosti e progressi mantengono gli stessi salvataggi locali. macOS potrebbe chiederti di riabilitare Accessibilità.
 
 ## Uso
 
@@ -35,19 +37,19 @@ Scegli app e filtri, apri **Esercizi**, attiva il campo dedicato e digita la com
 
 ## Copertura e limiti
 
-Scorciatoie unisce tre fonti:
+Shortcuts unisce tre fonti:
 
 - Menu accessibili dell’app attiva.
 - Cataloghi offline tratti da documentazione pubblica.
 - Assegnazioni personali e dichiarazioni delle estensioni supportate per VS Code/Cursor, oltre ai profili CLI supportati.
 
-**Un’app riconosciuta non equivale a una copertura completa delle sue scorciatoie.** Alcuni menu si caricano solo dopo l’apertura; Scorciatoie non li apre di nascosto. Le voci conservano fonte e contesto quando disponibili. Scansioni parziali e condizioni incerte vengono segnalate. Il catalogo attuale è descritto nel [rapporto di copertura](docs/coverage.json).
+**Un’app riconosciuta non equivale a una copertura completa delle sue scorciatoie.** Alcuni menu si caricano solo dopo l’apertura; Shortcuts non li apre di nascosto. Le voci conservano fonte e contesto quando disponibili. Scansioni parziali e condizioni incerte vengono segnalate. Il catalogo attuale è descritto nel [rapporto di copertura](docs/coverage.json).
 
 Contesti degli editor e condizioni delle estensioni vengono interpretati solo quando supportati. Le condizioni non risolte restano sconosciute. Le scorciatoie macOS personalizzate non vengono riconciliate automaticamente. Sono inclusi i comandi dell’app browser; le scorciatoie dei siti web restano fuori da questo ambito.
 
 Il profilo **Safari Sviluppo / Web Inspector** si seleziona esplicitamente in Studio e può essere assegnato facoltativamente con **Usa nel pannello**. Web Inspector non viene rilevato automaticamente.
 
-I profili del terminale si selezionano esplicitamente in Studio. Scorciatoie non legge il contenuto del terminale per indovinare il programma in uso.
+I profili del terminale si selezionano esplicitamente in Studio. Shortcuts non legge il contenuto del terminale per indovinare il programma in uso.
 
 ## Privacy
 
@@ -78,8 +80,8 @@ L’importazione documenta un’assegnazione già configurata: non assegna i tas
 Per compilare servono Swift 6 o successivo e l’SDK macOS 26, fornito da Xcode 26 o dagli strumenti a riga di comando equivalenti. La versione minima di esecuzione resta macOS 13. L’app non usa framework di terze parti a runtime.
 
 ```sh
-git clone https://github.com/giuucmp/scorciatoie.git
-cd scorciatoie
+git clone https://github.com/giuucmp/shortcuts.git
+cd shortcuts
 ./scripts/check.sh
 python3 scripts/test_key_parser.py
 python3 scripts/test_category_classifier.py
@@ -87,7 +89,7 @@ python3 scripts/test_category_classifier.py
 ./scripts/build-app.sh
 ```
 
-L’output predefinito è `dist/Scorciatoie.app`. Per compilare entrambe le architetture Apple silicon e Intel e creare il DMG:
+L’output predefinito è `dist/Shortcuts.app`. Per compilare entrambe le architetture Apple silicon e Intel e creare il DMG:
 
 ```sh
 UNIVERSAL=1 ./scripts/build-app.sh

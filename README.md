@@ -1,8 +1,8 @@
-# Scorciatoie
+# Shortcuts
 
 Learn your Mac’s shortcuts as you work. Hold a modifier to see what you can do in the active app; open Studio to explore and practice.
 
-[Download for Mac](https://github.com/giuucmp/scorciatoie/releases/download/v0.3.1/Scorciatoie-0.3.1-universal.dmg) · [Website](https://giuucmp.github.io/scorciatoie/) · [Italiano](README.it.md) · [Contribute](CONTRIBUTING.md)
+[Download for Mac](https://github.com/giuucmp/shortcuts/releases/download/v0.3.2/Shortcuts-0.3.2-universal.dmg) · [Website](https://giuucmp.github.io/shortcuts/) · [Italiano](README.it.md) · [Contribute](CONTRIBUTING.md)
 
 Native macOS app · macOS 13+ · Apple silicon and Intel · English and Italian · MIT license
 
@@ -10,11 +10,13 @@ Native macOS app · macOS 13+ · Apple silicon and Intel · English and Italian 
 
 ## Install
 
-1. Download the DMG from [GitHub Releases](https://github.com/giuucmp/scorciatoie/releases/tag/v0.3.1), open it, and drag **Scorciatoie** into **Applications**.
+1. Download the DMG from [GitHub Releases](https://github.com/giuucmp/shortcuts/releases/tag/v0.3.2), open it, and drag **Shortcuts** into **Applications**.
 2. Open the app. This release is not Developer ID signed or Apple-notarized. If macOS blocks the first opening, go to **System Settings → Privacy & Security → Open Anyway** and confirm. Only approve the copy you downloaded from this project’s release.
-3. Enable Scorciatoie in **System Settings → Privacy & Security → Accessibility**. Its Command icon lives in the menu bar.
+3. Enable Shortcuts in **System Settings → Privacy & Security → Accessibility**. Its Command icon lives in the menu bar.
 
 No Screen Recording permission is required. You can revoke Accessibility access at any time. macOS may ask you to re-enable access after an update.
+
+**Updating from Scorciatoie?** Quit the old copy, install Shortcuts, then remove the old Scorciatoie app. Preferences, favorites, hidden commands and practice progress retain the same local storage. macOS may ask you to enable Accessibility again.
 
 ## Use
 
@@ -35,19 +37,19 @@ Choose an app and filters, open **Practice**, focus the exercise and enter the r
 
 ## Coverage and limits
 
-Scorciatoie combines three sources:
+Shortcuts combines three sources:
 
 - Accessible menus from the active app.
 - Documented offline shortcut catalogs.
 - Supported personal bindings and extension declarations for VS Code/Cursor, plus supported CLI profiles.
 
-**A recognized app does not mean complete shortcut coverage.** Some menus load only after opening them; Scorciatoie does not open them secretly. Catalog entries retain their source and context when available. Partial menu scans and uncertain conditions are indicated. See [the coverage report](docs/coverage.json) for the current catalog.
+**A recognized app does not mean complete shortcut coverage.** Some menus load only after opening them; Shortcuts does not open them secretly. Catalog entries retain their source and context when available. Partial menu scans and uncertain conditions are indicated. See [the coverage report](docs/coverage.json) for the current catalog.
 
 Editor contexts and extension conditions are interpreted only when supported. Unresolved conditions remain unknown. Custom macOS system shortcuts are not automatically reconciled. Browser app commands are covered; shortcuts inside websites are outside that scope.
 
 The **Safari Develop / Web Inspector** profile is selected explicitly in Studio and can optionally be assigned with **Use in panel**. Web Inspector is not detected automatically.
 
-Terminal profiles are selected explicitly in Studio. Scorciatoie does not read terminal contents to guess which program you are using.
+Terminal profiles are selected explicitly in Studio. Shortcuts does not read terminal contents to guess which program you are using.
 
 ## Privacy
 
@@ -78,8 +80,8 @@ This documents a binding you have already configured; it does not assign keys in
 Building requires Swift 6 or later and the macOS 26 SDK, supplied by Xcode 26 or equivalent Command Line Tools. The deployment target remains macOS 13. The app has no third-party runtime frameworks.
 
 ```sh
-git clone https://github.com/giuucmp/scorciatoie.git
-cd scorciatoie
+git clone https://github.com/giuucmp/shortcuts.git
+cd shortcuts
 ./scripts/check.sh
 python3 scripts/test_key_parser.py
 python3 scripts/test_category_classifier.py
@@ -87,7 +89,7 @@ python3 scripts/test_category_classifier.py
 ./scripts/build-app.sh
 ```
 
-The default output is `dist/Scorciatoie.app`. To build both Apple silicon and Intel architectures and package the DMG:
+The default output is `dist/Shortcuts.app`. To build both Apple silicon and Intel architectures and package the DMG:
 
 ```sh
 UNIVERSAL=1 ./scripts/build-app.sh

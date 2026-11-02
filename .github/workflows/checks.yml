@@ -23,8 +23,8 @@ jobs:
         run: UNIVERSAL=1 ./scripts/build-app.sh
       - name: Verify architectures and signature
         run: |
-          python3 -c 'import subprocess; assert set(subprocess.check_output(["lipo", "-archs", "dist/Scorciatoie.app/Contents/MacOS/Scorciatoie"], text=True).split()) == {"arm64", "x86_64"}'
-          codesign --verify --deep --strict dist/Scorciatoie.app
+          python3 -c 'import subprocess; assert set(subprocess.check_output(["lipo", "-archs", "dist/Shortcuts.app/Contents/MacOS/Shortcuts"], text=True).split()) == {"arm64", "x86_64"}'
+          codesign --verify --deep --strict dist/Shortcuts.app
       - name: Check generated website
         run: |
           python3 site/build.py

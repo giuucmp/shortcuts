@@ -12,7 +12,7 @@ struct PreferencesView:View {
     let manageHidden:()->Void
     var body:some View {
         VStack(alignment:.leading,spacing:20) {
-            Text(L10n.text("Come vuoi usare Scorciatoie?")).font(.title2.weight(.semibold))
+            Text(L10n.text("Come vuoi usare Shortcuts?")).font(.title2.weight(.semibold))
             Picker(L10n.text("Sezione impostazioni"),selection:$state.section) {
                 Text(L10n.text("Aspetto")).tag(0);Text(L10n.text("Comandi")).tag(1);Text(L10n.text("Richiamo")).tag(2)
             }.pickerStyle(.segmented)

@@ -1,5 +1,5 @@
 ---
-name: "Scorciatoie website"
+name: "Shortcuts website"
 description: "Native clarity for discovering and installing a Mac shortcut companion."
 colors:
   canvas: "#f7f8fa"
@@ -229,7 +229,7 @@ components:
     typography: "{typography.disclosure}"
 ---
 
-# Design System: Scorciatoie website
+# Design System: Shortcuts website
 
 ## Overview
 

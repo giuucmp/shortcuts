@@ -3,39 +3,39 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 export CLANG_MODULE_CACHE_PATH="$PWD/.build/module-cache"
 configuration="${CONFIGURATION:-release}"
-dest="${1:-dist/Scorciatoie.app}"
+dest="${1:-dist/Shortcuts.app}"
 [[ "$dest" == *.app ]] || { echo "Destination must end in .app" >&2; exit 1; }
 args=(--disable-sandbox --cache-path "$PWD/.build/cache" -c "$configuration")
 mkdir -p "$dest/Contents/MacOS" "$dest/Contents/Resources"
 if [[ "${UNIVERSAL:-0}" == 1 ]]; then
   binaries=()
   for arch in arm64 x86_64; do
-    swift build "${args[@]}" --arch "$arch" --product Scorciatoie
+    swift build "${args[@]}" --arch "$arch" --product Shortcuts
     bin=$(swift build "${args[@]}" --arch "$arch" --show-bin-path)
     # Recent SwiftPM uses one Products path for all --arch builds. Preserve
     # each executable before the next architecture overwrites that path.
-    archBin="$PWD/.build/universal/$arch/Scorciatoie"
+    archBin="$PWD/.build/universal/$arch/Shortcuts"
     mkdir -p "$(dirname "$archBin")"
-    cp "$bin/Scorciatoie" "$archBin"
+    cp "$bin/Shortcuts" "$archBin"
     binaries+=("$archBin")
   done
-  lipo -create "${binaries[@]}" -output "$dest/Contents/MacOS/Scorciatoie"
+  lipo -create "${binaries[@]}" -output "$dest/Contents/MacOS/Shortcuts"
 else
-  swift build "${args[@]}" --product Scorciatoie
+  swift build "${args[@]}" --product Shortcuts
   bin=$(swift build "${args[@]}" --show-bin-path)
-  cp "$bin/Scorciatoie" "$dest/Contents/MacOS/Scorciatoie"
+  cp "$bin/Shortcuts" "$dest/Contents/MacOS/Shortcuts"
 fi
 ./scripts/copy-resources.sh "$bin/Scorciatoie_ShortcutCore.bundle" "$dest"
 cat > "$dest/Contents/Info.plist" <<'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0"><dict>
-<key>CFBundleExecutable</key><string>Scorciatoie</string>
+<key>CFBundleExecutable</key><string>Shortcuts</string>
 <key>CFBundleIdentifier</key><string>it.giuseppecampo.Scorciatoie</string>
-<key>CFBundleName</key><string>Scorciatoie</string>
-<key>CFBundleDisplayName</key><string>Scorciatoie</string>
-<key>CFBundleVersion</key><string>10</string>
-<key>CFBundleShortVersionString</key><string>0.3.1</string>
+<key>CFBundleName</key><string>Shortcuts</string>
+<key>CFBundleDisplayName</key><string>Shortcuts</string>
+<key>CFBundleVersion</key><string>11</string>
+<key>CFBundleShortVersionString</key><string>0.3.2</string>
 <key>CFBundleDevelopmentRegion</key><string>en</string>
 <key>CFBundleLocalizations</key><array><string>en</string><string>it</string></array>
 <key>CFBundleIconFile</key><string>AppIcon</string>
@@ -50,4 +50,4 @@ iconutil -c icns "$PWD/.build/AppIcon.iconset" -o "$dest/Contents/Resources/AppI
 codesign --force --deep --sign - "$dest"
 codesign --verify --deep --strict "$dest"
 echo "Built: $dest"
-lipo -archs "$dest/Contents/MacOS/Scorciatoie"
+lipo -archs "$dest/Contents/MacOS/Shortcuts"
